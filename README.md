@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+### Introduction to Programming
+#### East House Enrichment Program @ RIT, June 2019
 
-You can use the [editor on GitHub](https://github.com/esmesh/east-house-intro-programming/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> Computer Programming/Game Development
+> Monday, June 3rd , Tuesday, June 4th , Wednesday, June 5th and Thursday, June 6th 
+> 1:00pm-3:30pm
+> WAL 3650 – Bld 5 3rd Fl Bib Lab
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> Introduction to Computer Programming
+> Monday, June 10th and Tuesday, June 11th
+> 1:00pm-3:30pm
+> WAL 3650 – Bld 5 3rd Fl Bib Lab
 
-### Markdown
+These courses will provide an introduction to core software programming concepts. Each student will work individually and in small groups to write small programs that generate pictures of their own design. Time permitting, we’ll then add interactivity to the images by changing what the program does depending on the user’s mouse and/or keyboard actions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Outline
 
-```markdown
-Syntax highlighted code block
+#### Day 1
 
-# Header 1
-## Header 2
-### Header 3
+| Time       | Topic | Activity | Sample Program |
+|------------|-------|----------|----------------|
+|1:00-1:30pm| Introductions & Overview | | |
+|1:30-2:00pm| What is programming? | | |
+|2:00-2:30pm| Drawing with a computer | Hello World | [HelloP5](demos/HelloP5/index.html) |
+|2:30-3:30pm| Shapes (+statements & data) | | |
 
-- Bulleted
-- List
+#### Day 2
 
-1. Numbered
-2. List
+| Time       | Topic | Activity | Sample Program |
+|------------|-------|----------|----------------|
+|1:00-1:30pm| | | |
+|1:30-2:00pm| | | |
+|2:00-2:30pm| | | |
+|2:30-3:00pm| | | |
+|3:00-3:30pm| | | |
 
-**Bold** and _Italic_ and `Code` text
+#### Day 3
 
-[Link](url) and ![Image](src)
-```
+| Time       | Topic | Activity | Sample Program |
+|------------|-------|----------|----------------|
+|1:00-1:30pm| | | |
+|1:30-2:00pm| | | |
+|2:00-2:30pm| | | |
+|2:30-3:00pm| | | |
+|3:00-3:30pm| | | |
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Day 4
 
-### Jekyll Themes
+| Time       | Topic | Activity | Sample Program |
+|------------|-------|----------|----------------|
+|1:00-1:30pm| | | |
+|1:30-2:00pm| | | |
+|2:00-2:30pm| | | |
+|2:30-3:00pm| | | |
+|3:00-3:30pm| | | |
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/esmesh/east-house-intro-programming/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
