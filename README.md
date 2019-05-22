@@ -28,29 +28,20 @@ These courses will provide an introduction to core software programming concepts
 
 | Time       | Topic | Activity | Sample Program |
 |------------|-------|----------|----------------|
-|1:00-1:30pm| | | |
-|1:30-2:00pm| | | |
-|2:00-2:30pm| | | |
-|2:30-3:00pm| | | |
-|3:00-3:30pm| | | |
+|1:00-1:30pm| Colors | | |
+|1:30-3:30pm| Project #1 - sketch, plan, code & test your own program | | |
 
 #### Day 3
 
 | Time       | Topic | Activity | Sample Program |
 |------------|-------|----------|----------------|
-|1:00-1:30pm| | | |
-|1:30-2:00pm| | | |
-|2:00-2:30pm| | | |
-|2:30-3:00pm| | | |
-|3:00-3:30pm| | | |
+|1:00-2:00pm| Expressions & math | | |
+|2:00-2:30pm| Built-in variables | | |
+|2:30-3:30pm| Frames & animations | | |
 
 #### Day 4
 
 | Time       | Topic | Activity | Sample Program |
 |------------|-------|----------|----------------|
-|1:00-1:30pm| | | |
-|1:30-2:00pm| | | |
-|2:00-2:30pm| | | |
-|2:30-3:00pm| | | |
-|3:00-3:30pm| | | |
+|1:00-3:30pm| Project #2 - Interactive scene | | |
 
