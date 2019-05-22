@@ -37,7 +37,7 @@ These courses will provide an introduction to core software programming concepts
 |------------|----------------|----------------|
 |1:00-2:00pm| [Statements, data, and expressions](topics/Expressions.md) | [Expressions](demos/Expressions/index.html)|
 |2:00-2:30pm| [Built-in variables](topics/Variables.md) | [Variables](demos/Variables/index.html)|
-|2:30-3:30pm| [Frames & animations]](topics/Animation.md) | [Animation](demos/Animation/index.html)|
+|2:30-3:30pm| [Frames & animations](topics/Animation.md) | [Animation](demos/Animation/index.html)|
 
 #### Day 4
 
