@@ -35,7 +35,7 @@ These courses will provide an introduction to core software programming concepts
 
 | Time       | Topic | 
 |------------|-----------------------------------------------|
-|1:00-2:00pm| [Statements, data, and expressions](topics/Expressions.md) | 
+|1:00-2:00pm| [Expressions](topics/Expressions.md) | 
 |2:00-2:30pm| [Variables](topics/Variables.md) |
 |2:30-3:30pm| [Animations using built-in variables](topics/Animation.md) | 
 
