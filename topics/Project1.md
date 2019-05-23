@@ -1,11 +1,12 @@
-# Project 1
+## Project 1
 
 
-## Objectives
+### Objectives
 Sketch, plan, code, & test a program to draw a static image
 
-## References
 
-## Activities
+
+### References
+- <a href="xxx" target="_blank">xxx</a>
 
 

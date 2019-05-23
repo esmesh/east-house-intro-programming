@@ -1,11 +1,12 @@
-# Project 2
+## Project 2
 
 
-## Objectives
+### Objectives
 Sketch, plan, code, and test a program to draw an interactive scene
 
-## References
 
-## Activities
+
+### References
+- <a href="xxx" target="_blank">xxx</a>
 
 

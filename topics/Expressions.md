@@ -1,10 +1,12 @@
-# Statements, data, and expressions
+## Statements, data, and expressions
 
+> TODO - We don't have to always to all the math by hand
 
-## Objectives
+> TODO - basic operations: +, -, *, /
 
-## References
+> TODO - math on data as it is used in parameters (no variables yet!)
 
-## Activities
+### References
+- <a href="xxx" target="_blank">xxx</a>
 
 

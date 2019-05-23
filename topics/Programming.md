@@ -1,10 +1,20 @@
-# What is programming?
+## What is programming?
 
 
-## Objectives
+### What is a computer?
+- Literally
+- History of the word
+- Short history of computing
 
-## References
+### How are computers used now?
 
-## Activities
+
+### How are **we** going to use computers in this class?
+- Make interesting pictures
+- Share our work
+
+
+### References
+- <a href="xxx" target="_blank">xxx</a>
 
 

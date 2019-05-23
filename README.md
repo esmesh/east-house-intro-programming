@@ -17,31 +17,36 @@ These courses will provide an introduction to core software programming concepts
 
 #### Day 1
 
-| Time       | Topic | Sample Program |
-|------------|----------------|----------------|
-|1:00-1:30pm| Introductions & [Overview](topics/Overview.md) | |
-|1:30-2:00pm| [What is programming?](topics/Programming.md) | |
-|2:00-2:30pm| [Drawing with a computer](topics/Drawing.md) | [HelloP5](demos/HelloP5/index.html) |
-|2:30-3:30pm| [Shapes](topics/Shapes.md) (+statements & data) | [Shapes](demos/Shapes/index.html)|
+| Time       | Topic | 
+|------------|-----------------------------------------------|
+|1:00-1:30pm| Introductions, [Overview](topics/Overview.md)  & [What is programming?](topics/Programming.md) |
+|1:30-2:00pm| [Setup](topics/Setup.md) |
+|2:00-2:30pm| [Drawing with a computer](topics/Drawing.md) | 
+|2:30-3:30pm| [Shapes](topics/Shapes.md)|
 
 #### Day 2
 
-| Time       | Topic  | Sample Program |
-|------------|----------------|----------------|
-|1:00-1:30pm| [Colors](topics/Colors.md) | [Colors](demos/Colors/index.html)|
-|1:30-3:30pm| [Project #1](topics/Project1.md) - sketch, plan, code & test your own program | |
+| Time       | Topic | 
+|------------|-----------------------------------------------|
+|1:00-1:30pm| [Colors](topics/Colors.md) | 
+|1:30-3:30pm| [Project #1](topics/Project1.md) - sketch, plan, code & test your own program |
 
 #### Day 3
 
-| Time       | Topic | Sample Program |
-|------------|----------------|----------------|
-|1:00-2:00pm| [Statements, data, and expressions](topics/Expressions.md) | [Expressions](demos/Expressions/index.html)|
-|2:00-2:30pm| [Built-in variables](topics/Variables.md) | [Variables](demos/Variables/index.html)|
-|2:30-3:30pm| [Frames & animations](topics/Animation.md) | [Animation](demos/Animation/index.html)|
+| Time       | Topic | 
+|------------|-----------------------------------------------|
+|1:00-2:00pm| [Statements, data, and expressions](topics/Expressions.md) | 
+|2:00-2:30pm| [Built-in variables](topics/Variables.md) |
+|2:30-3:30pm| [Frames & animations](topics/Animation.md) | 
 
 #### Day 4
 
-| Time       | Topic | Sample Program |
-|------------|----------------|----------------|
-|1:00-3:30pm| [Project #2](topics/Project2.md) - Interactive scene | |
+| Time       | Topic | 
+|------------|-----------------------------------------------|
+|1:00-3:30pm| [Project #2](topics/Project2.md) - Interactive scene |
 
+### Resources
+- Course Homepage: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
+- Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
+- [Glossary](Glossary.md)
+- ["Cheatsheet"](Cheatsheet.md) *(Command list, quick reference guide, etc.)*

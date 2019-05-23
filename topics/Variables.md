@@ -1,10 +1,10 @@
-# Managing data with variables
+## Managing data with variables
 
+> TODO - save the results of expressions into variables that we can reuse (all local?)
 
-## Objectives
+> TODO - pass variables into functions instead of literals
 
-## References
-
-## Activities
+### References
+- <a href="xxx" target="_blank">xxx</a>
 
 
