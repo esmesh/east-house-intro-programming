@@ -4,25 +4,33 @@
 function setup() {
     
     // Create a blank canvas 600 pixels high and 600 pixels wide
-    createCanvas(600, 600);
+    createCanvas(400, 400);
+    
+    // Top left - a point and a line
+    point(20, 20);
+    
+    line(30, 30, 150, 30);
+    
+    // Top center - rectangle
+    rect(200, 30, 50, 80);
+    
+    // Top right - ellipse
+    ellipse(350, 50, 50, 80);
+    
+    // Center - circle via an ellipse with the same w and h
+    ellipse(200,200,70,70);
+    
+    // Bottom left - triangle
+    triangle(50, 300, 30, 350, 70, 350);
+    
+    // Bottom right - quad
+    quad(250, 300, 325, 325, 350, 375, 225, 370);
     
 }
 
 // draw : Loops forever; called automatically
 function draw() {
-
-    // Draw HI
-    line(20, 20, 20, 100);	     // H left
-    line(60, 20, 60, 100);	     // H right
-    line(20, 60, 60, 60);	     // H middle
-    line(100, 20, 100, 100);     // I
-
-    // Draw a smiley
-    ellipse(200,200,200);       // Face
-    ellipse(200,200,15); 	    // Nose
-    ellipse(160,160,20);	    // Left eye
-    ellipse(240,160,20);	    // Right eye
-    arc(200,200,110,110,0,PI);  // Mouth
+    
 }
 
  

@@ -66,3 +66,29 @@ quad(2, 1, 8, 2, 7, 7, 1, 4);
 ```
 ![Quad](quad.png)
 
+## Example
+
+```
+    // Top left - a point and a line
+    point(20, 20);
+    
+    line(30, 30, 150, 30);
+    
+    // Top center - rectangle
+    rect(200, 30, 50, 80);
+    
+    // Top right - ellipse
+    ellipse(350, 50, 50, 80);
+    
+    // Center - circle via an ellipse with the same w and h
+    ellipse(200,200,70,70);
+    
+    // Bottom left - triangle
+    triangle(50, 300, 30, 350, 70, 350);
+    
+    // Bottom right - quad
+    quad(250, 300, 325, 325, 350, 375, 225, 370);
+    
+```
+
+![Shapes](shapes.png)
