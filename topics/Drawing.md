@@ -70,7 +70,7 @@ These three pieces of information are called **parameters**. The actual informat
 Given the *function name* and required *parameters* for the function, we can figure out how to write the command using our own *data*.
 
 | Function Name | Parameters (in required order) | Example |
-|----------|----------------------------------|-----------------|----|
+|----------|----------------------------------|----|
 | text | (`"`text to draw`"`, x offset, y offset) | `text("Hello East House!", 25, 25);` |
 
 To change the text that is drawn, change the *data* passed into the 1st parameter between the quotation marks:
