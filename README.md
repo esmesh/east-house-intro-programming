@@ -11,15 +11,15 @@
 > 1:00pm-3:30pm
 > WAL 3650 – Bld 5 3rd Fl Bib Lab
 
-These courses will provide an introduction to core software programming concepts. Each student will work individually and in small groups to write small programs that generate pictures of their own design. Time permitting, we’ll then add interactivity to the images by changing what the program does depending on the user’s mouse and/or keyboard actions.
+These courses will provide an introduction to core software programming concepts. Each student will work individually and in small groups to write programs that generate pictures of their own design. Time permitting, we’ll then add interactivity to the images by changing what the program does depending on the user’s mouse and/or keyboard actions.
 
 ### Outline
 
 #### Day 1
 
-| Time       | Topic | 
-|------------|-----------------------------------------------|
-|1:00-1:30pm| Introductions, [Overview](topics/Overview.md)  & [What is programming?](topics/Programming.md) |
+| Time       | Topic |
+|------------|-------------------|
+|1:00-1:30pm| Introductions & access to course resources |
 |1:30-2:00pm| [Setup](topics/Setup.md) |
 |2:00-2:30pm| [Drawing with a computer](topics/Drawing.md) | 
 |2:30-3:30pm| [Shapes](topics/Shapes.md)|
@@ -27,26 +27,26 @@ These courses will provide an introduction to core software programming concepts
 #### Day 2
 
 | Time       | Topic | 
-|------------|-----------------------------------------------|
-|1:00-1:30pm| [Colors](topics/Colors.md) | 
-|1:30-3:30pm| [Project #1](topics/Project1.md) - sketch, plan, code & test your own program |
+|------------|-------------------|
+|1:00-1:30pm| [Colors](topics/Colors.md) & Explore sample sketches that leverage shapes and colors| 
+|1:30-3:30pm| Sketch, plan, code & test your own program |
 
 #### Day 3
 
 | Time       | Topic | 
-|------------|-----------------------------------------------|
-|1:00-2:00pm| [Expressions](topics/Expressions.md) | 
-|2:00-2:30pm| [Variables](topics/Variables.md) |
+|------------|-------------------|
+|1:00-2:00pm| [Having the computer do math for us (expressions)](topics/Expressions.md) | 
+|2:00-2:30pm| [Saving data to use again later (variables)](topics/Variables.md) |
 |2:30-3:30pm| [Animations using built-in variables](topics/Animation.md) | 
 
 #### Day 4
 
 | Time       | Topic | 
-|------------|-----------------------------------------------|
-|1:00-3:30pm| [Project #2](topics/Project2.md) - Interactive scene |
+|------------|-------------------|
+|1:00-3:30pm| Plan and code your own interactive scene |
 
 ### Resources
-- Course Homepage: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
+- Course website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
 - Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
-- [Glossary](Glossary.md)
-- ["Cheatsheet"](Cheatsheet.md) *(Command list, quick reference guide, etc.)*
+- p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
+- [Quick Reference](Quick Reference.md) *(Terms, commands, etc.)*

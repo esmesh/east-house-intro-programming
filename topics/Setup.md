@@ -1,4 +1,4 @@
-## Setup
+## Setting up
 In order to write and run a computer program, we need a "development environment": the set of tools needed to plan, write, and run our programs. In this class, your development environment will be:
 
 - Your notebook!
@@ -16,15 +16,10 @@ Your notebook is a place for you to collect thoughts and information from the cl
     - Collecting handouts, etc.
     
 ### Logging into the computer and opening a web browser
-At the start of each class, log into a lab computer using the RIT account given to you.
-
-> TODO login screenshot?
-
-Start each class by opening Chrome.
-
-> TODO Chrome web browser icone and open default window
-
-Type the following address into Chrome to open the webpage for this class:
+At the start of each class:
+1. Log into a lab computer using the RIT account given to you.
+2. Opening the Chrome web browser
+3. Type the following address into Chrome to open the webpage for this class:
 
 ```
 https://esmesh.github.io/east-house-intro-programming/
@@ -38,6 +33,3 @@ In order to write and **save** programs, we'll be using an online p5.js editor. 
 3. Decide on a username and password *(write these down in your notebook!)*.
 4. Enter an email address (a personal one or your RIT username + "@rit.edu")
 5. Click `Sign Up`
-
-> TODO add some screen shots --- maybe consider setting aside time to help them create Gmail accounts if they don't have them already?
-

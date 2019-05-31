@@ -1,7 +1,7 @@
 ## Drawing with a computer
 
 ### Program structure
-Functions are sections of program code that the computer runs together. By default, every p5.js program has two main "functions": `setup` and `draw`.
+**Functions** are sections of program code that the computer runs together. By default, every p5.js program has two main "functions": `setup` and `draw`.
 
 Everything with the starting `{` and ending `}` of the function will be run, in the order that it is written, by the computer. Any lines beginning with `\\` are ignored by the computer. These are **comment** lines and we use them to add our own notes to the program.
 
@@ -33,8 +33,6 @@ createCanvas(200, 200);
 background(255);
 ```
 
-> TODO ADD A CANVAS PICTURE with width and height marked as 200,200
-
 In order to draw something onto the canvas, we need to know:
 - what we want to draw
 - where we want to draw it
@@ -45,9 +43,9 @@ In order to draw something onto the canvas, we need to know:
 - **x**: The number of pixels right from the left side of the canvas.
 - **y**: The number of pixels down from the top side of the canvas.
 
-For example, in the 200x200 canvas defined above, the center would be at the coordinate (x=100,y=100).
+For example, in the 200x200 canvas defined above, the top left would be at x=0, y=0. The bottom right would be at x=200, y=200. We can represent this using a coordinate grid *(this is why your notebooks have graph paper)*.
 
-> TODO ADD A CANVAS PICTURE with top left marked as 0,0, bottom right as 200,200 and center as 100,100
+![Sample canvas](canvas200_200.png)
 
 We provide the coordinate where we want to *start* drawing to draw something at a specific location on the canvas.
 
@@ -57,7 +55,7 @@ To draw the text "Hello East House!" in the top left corner of the canvas (with 
 text("Hello East House!", 25, 25);
 ```
 
-> TODO add screenshot of end result
+![Hello East House](HelloEH.png)
 
 ### Command structure
 The `createCanvas`, `background`, and `text` commands used above are examples of **function calls**. In other words, we are telling the computer to run other functions (like setup, but written by someone else) using information we provide.
@@ -86,5 +84,6 @@ The change the location of the text to be still on the left side, but halfway do
 text("My name is Erika!", 25, 100);
 ```
 
+![My name is...](MyNameIs.png)
 
-** *A summary of all of the commands we'll use in this class can be found on the [Cheatsheet](Cheatsheet.md) page.* **
+** *A summary of all of the commands we'll use in this class can be found on the [Quick Reference](QuickReference.md) page.* **
