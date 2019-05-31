@@ -43,4 +43,4 @@ These courses will provide an introduction to core software programming concepts
 - Course website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
 - Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 - p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
-- [Quick Reference](Quick Reference.md) *(Terms, commands, etc.)*
+- [Quick Reference](QuickReference.md) *(Terms, commands, etc.)*
