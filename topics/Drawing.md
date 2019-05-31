@@ -85,5 +85,3 @@ text("My name is Erika!", 25, 100);
 ```
 
 ![My name is...](MyNameIs.PNG)
-
-** *A summary of all of the commands we'll use in this class can be found on the [Quick Reference](QuickReference.md) page.* **
