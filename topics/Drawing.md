@@ -45,7 +45,7 @@ In order to draw something onto the canvas, we need to know:
 
 For example, in the 200x200 canvas defined above, the top left would be at x=0, y=0. The bottom right would be at x=200, y=200. We can represent this using a coordinate grid *(this is why your notebooks have graph paper)*.
 
-![Sample canvas](canvas200_200.png)
+![Sample canvas](canvas200_200.PNG)
 
 We provide the coordinate where we want to *start* drawing to draw something at a specific location on the canvas.
 
@@ -55,7 +55,7 @@ To draw the text "Hello East House!" in the top left corner of the canvas (with 
 text("Hello East House!", 25, 25);
 ```
 
-![Hello East House](HelloEH.png)
+![Hello East House](HelloEH.PNG)
 
 ### Command structure
 The `createCanvas`, `background`, and `text` commands used above are examples of **function calls**. In other words, we are telling the computer to run other functions (like setup, but written by someone else) using information we provide.
@@ -84,6 +84,6 @@ The change the location of the text to be still on the left side, but halfway do
 text("My name is Erika!", 25, 100);
 ```
 
-![My name is...](MyNameIs.png)
+![My name is...](MyNameIs.PNG)
 
 ** *A summary of all of the commands we'll use in this class can be found on the [Quick Reference](QuickReference.md) page.* **
