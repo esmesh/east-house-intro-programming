@@ -28,7 +28,7 @@ Anywhere you would type a number, you can substitute a **math expression**.
 - plus:  `50 + 120`
 - minus:  `120 - 50` 
 - multiply:  `105 * 2`
-- divide:  `400 \ 2`
+- divide:  `400 / 2`
 
 ### Parentheses in Math Expressions
 You can use parentheses to organize more complicated expressions, for example:
@@ -52,7 +52,7 @@ rect(0, 0, 300, 300);
 ```
 Draw a square centered at the middle of the 400x400 canvas.
 If the canvas is 400 wide and 400 high, the middle of it is (200, 200). Use a math expression to calculate the proper top-left corner position of the square given that it is 300 wide.
-![Centered square](centerSquare.png)
+![Centered square](centerSquareGrid.png)
 ```
 // 300x300 square centered at (200, 200):
 // x coordinate: 200 - 300/2
