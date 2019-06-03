@@ -16,9 +16,43 @@ point(4, 5);
 **Lines** are drawn between two coordinates.
 
 ```
-// Line between 20, 20 & 20, 100
-line(20, 20, 20, 100); 
+// Line between 0, 0 & 4, 5
+line(0, 0, 4, 5); 
 ```
+
+
+
+#### Practice
+**Using your graph paper, try to figure out what the following program will draw.**
+
+Hints: 
+- If you assume that each square in the grid is 10 pixels wide and 10 pixels high, everything draw will be on one of the grid lines.
+- Start by drawing the outline of the canvas and figuring out the cooridinates of each corner (i.e. the top left is x=0, y=0).
+- Remember that a point's parameters are in the order: X ,  Y
+- Remember that a line's parameters are in the order: Start X, Start Y, End X, End Y
+
+```
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background("White");
+  
+  line(20,20,20,80);
+  line(60,20,60,80);
+  line(20,50,60,50);
+  
+  line(80,20,120,20);
+  line(80,80,120,80);
+  line(100,20,100,80);
+  
+  line(150,20,150,70);
+  point(150,80);
+}
+```
+
+[Answer](lines_answer.jpg)
 
 ### Rectangles
 **Rectangles** are drawn with their top left corner at a given coordinate using a given width and height.
@@ -92,3 +126,11 @@ quad(2, 1, 8, 2, 7, 7, 1, 4);
 ```
 
 ![Shapes](shapes.png)
+
+## References
+- point: <a href="https://p5js.org/reference/#/p5/point" target="_blank">https://p5js.org/reference/#/p5/point</a>
+- line: <a href="https://p5js.org/reference/#/p5/line" target="_blank">https://p5js.org/reference/#/p5/line</a>
+- rect: <a href="https://p5js.org/reference/#/p5/rect" target="_blank">https://p5js.org/reference/#/p5/rect</a>
+- ellipse: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
+- triangle: <a href="https://p5js.org/reference/#/p5/triangle" target="_blank">https://p5js.org/reference/#/p5/triangle</a>
+- quad: <a href="https://p5js.org/reference/#/p5/quad" target="_blank">https://p5js.org/reference/#/p5/quad</a>

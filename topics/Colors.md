@@ -1,26 +1,9 @@
 ## Colors
 
-### RGB values
-Any color can be defined as a combination of the colors **R**ed, **G**reen, and **B**lue. We refer to these as 3 "channels".
+### Color Names
+The simplest way to refer to colors when using p5.js is to use pre-defined colors names. For example: "Red", "Yellow", "Purple", ...
 
-![RGB](rgb.png)
-
-Each RGB channel is defined via a number between 0 (none) and 255 (max value for that channel). For example, to get a bright blue, we'd use: r = 0, g = 0, b = 255.
-
-To get grayscale values we use the same value for all 3 channels. For example, black (no color) is r, g, and b all equal to 0. White is all channels set to 255.
-
-When defining colors in p5.js, we'll provide all the values in order (rgb) separated by commas.
-
-|Color|Red|Green|Blue|
-|-----|---|-----|----|
-|Red|255|0|0|
-|Green|0|255|0|
-|Blue|0|0|255|
-|Yellow|255|255|0|
-|Purple|255|0|255|
-|Aqua|0|255|255|
-
-To find the RGB values for a specific color, you can use an online RGB table or "picker" such as <a href="https://www.rapidtables.com/web/color/RGB_Color.html" target="_blank">https://www.rapidtables.com/web/color/RGB_Color.html</a> 
+To see a list of available color names, see <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a> 
 
 ### Background
 > TODO - changing the background color
@@ -33,15 +16,22 @@ To find the RGB values for a specific color, you can use an online RGB table or 
 
 > TODO - note that the color STAYS changed for all future strokes/shapes
 
+## References
+https://p5js.org/learn/color.html
+
+
 ## Example
 
 ```
+    // Create a blank canvas 600 pixels high and 600 pixels wide
+    createCanvas(400, 400);
+
     // Set the background to yellow
-    background(255,255,0);
+    background("Yellow");
     
     // Set the line color (for all points, lines, and shape 
     // outlines) to red
-    stroke(255,0,0);
+    stroke("Red");
     
     // Top left - a point and a line
     point(20, 20);
@@ -54,7 +44,7 @@ To find the RGB values for a specific color, you can use an online RGB table or 
     
     // Top right - ellipse
     // Change the fill color to purple
-    fill(255,0,255);
+    fill("Purple");
     ellipse(350, 50, 50, 80);
     
     // Center - circle via an ellipse with the same w and h
@@ -63,14 +53,13 @@ To find the RGB values for a specific color, you can use an online RGB table or 
     
     // Bottom left - triangle
     // Change fill color to aqua
-    fill(0,255,255);
+    fill("Aqua");
     triangle(50, 300, 30, 350, 70, 350);
     
     // Bottom right - quad
     // Change fill color back to white
     fill(255,255,255);
     quad(250, 300, 325, 325, 350, 375, 225, 370);
-    
-```
+ ```
 
 ![Colors](colors.png)

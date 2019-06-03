@@ -17,7 +17,8 @@ These courses will provide an introduction to core software programming concepts
 | Time       | Topic | 
 |------------|-------------------|
 |1:00-1:30pm| [Colors](topics/Colors.md) & Explore sample sketches that leverage shapes and colors| 
-|1:30-3:30pm| Sketch, plan, code & test your own program |
+|1:30-3:00pm| Sketch, plan, code & test your own program |
+|3:00-3:30pm| [Adding movement via the mouse](topics/MouseXY.md) |
 
 ## Day 3 
 *June 5th*
@@ -35,8 +36,3 @@ These courses will provide an introduction to core software programming concepts
 |------------|-------------------|
 |1:00-3:30pm| Plan and code your own interactive scene |
 
-## Resources
-- Course website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
-- Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
-- p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
-- [Quick Reference](QuickReference.md) *(Terms, commands, etc.)*

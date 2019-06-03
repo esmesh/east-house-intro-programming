@@ -7,32 +7,34 @@ Everything with the starting `{` and ending `}` of the function will be run, in 
 
 
 ```
-// setup : Initialization runs once; called automatically
+// setup: Called automatically ONCE at the start of the program
 function setup() {
     
 }
 
-// draw : Loops forever; called automatically
+// draw : Called automatically repeatedly to keep drawing whatever we define with in { }
 function draw() {
 
 }
 
  ```
  
- To make the program actually do something, we'll be adding **command statements** within the functions. *(To start, we'll be adding commands only within `setup`.)*
+ To make the program actually do something, we'll be adding **command statements** within the functions.
 
-### Adding commands
+### Creating the canvas
 Everything we draw using p5.js is placed onto a **canvas**. 
 
 We create the canvas and specify its size, in pixels, using the `createCanvas` command. We use the `background` command to set the canvas background color (more on colors later - for now, know that `255` is white).
 
-For example, the following statements, placed inside `setup()`, create a blank canvas 200 pixels high and 200 pixels wide with a white background.
+For example, the following statements, placed inside `setup()`, create a blank canvas 200 pixels high and 200 pixels wide.
 
 ```
-createCanvas(200, 200);
-background(255);
+function setup() {
+    createCanvas(200, 200);
+}
 ```
 
+### Drawing
 In order to draw something onto the canvas, we need to know:
 - what we want to draw
 - where we want to draw it
@@ -49,10 +51,13 @@ For example, in the 200x200 canvas defined above, the top left would be at x=0, 
 
 We provide the coordinate where we want to *start* drawing to draw something at a specific location on the canvas.
 
-To draw the text "Hello East House!" in the top left corner of the canvas (with a small offset right and down), we add the statement:
+To draw the text "Hello East House!" in the top left corner of the canvas (with a small offset right and down), we add statements to set the background to white and draw the text at the coordinates x=25, y=25.
 
 ```
-text("Hello East House!", 25, 25);
+function draw() {
+    background("White");
+    text("Hello East House!", 25, 25);
+}
 ```
 
 ![Hello East House](HelloEH.PNG)
@@ -85,3 +90,10 @@ text("My name is Erika!", 25, 100);
 ```
 
 ![My name is...](MyNameIs.PNG)
+
+## References
+- About setup: <a href="https://p5js.org/reference/#/p5/setup" target="_blank">https://p5js.org/reference/#/p5/setup</a>
+- About draw: <a href="https://p5js.org/reference/#/p5/draw" target="_blank">https://p5js.org/reference/#/p5/draw</a>
+- createCanvas: <a href="https://p5js.org/reference/#/p5/createCanvas" target="_blank">https://p5js.org/reference/#/p5/createCanvas</a>
+- background: <a href="https://p5js.org/reference/#/p5/background" target="_blank">https://p5js.org/reference/#/p5/background</a>
+- text: <a href="https://p5js.org/reference/#/p5/text" target="_blank">https://p5js.org/reference/#/p5/text</a>
