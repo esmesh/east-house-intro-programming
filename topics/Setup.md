@@ -16,10 +16,10 @@ Your notebook is a place for you to collect thoughts and information from the cl
 3. Pocket
     - Collecting handouts, etc.
     
-### Logging into the computer and opening a web browser
+### Logging into the computer and opening Chrome ![chrome_logo.png](chrome_logo.png)
 At the start of each class:
 1. Log into a lab computer using the RIT account given to you.
-2. Open the Chrome web browser ![chrome_logo.png](chrome_logo.png)
+2. Open the Chrome web browser
 3. Type the following address into Chrome to open the webpage for this class:
 
 ```

@@ -7,12 +7,14 @@ Everything with the starting `{` and ending `}` of the function will be run, in 
 
 
 ```
-// setup: Called automatically ONCE at the start of the program
+// setup: Called automatically ONCE 
+//          at the start of the program
 function setup() {
     
 }
 
-// draw : Called automatically repeatedly to keep drawing whatever we define with in { }
+// draw : Called automatically repeatedly to keep
+//          drawing whatever we define within { }
 function draw() {
 
 }
