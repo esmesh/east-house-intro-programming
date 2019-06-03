@@ -16,7 +16,7 @@ These courses will provide an introduction to core software programming concepts
 
 | Time       | Topic | 
 |------------|-------------------|
-|1:00-1:30pm| [Colors](topics/Colors.md) & Explore sample sketches that leverage shapes and colors| 
+|1:00-1:30pm| [Adding Colors](topics/Colors.md)| 
 |1:30-3:00pm| Sketch, plan, code & test your own program |
 |3:00-3:30pm| [Adding movement via the mouse](topics/MouseXY.md) |
 
@@ -25,9 +25,7 @@ These courses will provide an introduction to core software programming concepts
 
 | Time       | Topic | 
 |------------|-------------------|
-|1:00-2:00pm| [Having the computer do math for us (expressions)](topics/Expressions.md) | 
-|2:00-2:30pm| [Saving data to use again later (variables)](topics/Variables.md) |
-|2:30-3:30pm| [Animations using built-in variables](topics/Animation.md) | 
+|1:00-3:30pm| Animation via variables |
 
 ## Day 4 
 *June 6th*
