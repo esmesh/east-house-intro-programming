@@ -16,7 +16,7 @@ These courses will provide an introduction to core software programming concepts
 
 | Time       | Topic | 
 |------------|-------------------|
-|1:00-1:30pm| [Adding colors](Colors.md) | 
+|1:00-1:30pm| [Adding colors](topics/Colors.md) | 
 |1:30-3:00pm| Sketch, plan, code & test your own program |
 |3:00-3:30pm| Adding movement via the mouse |
 
