@@ -4,6 +4,7 @@
 In order to have our shapes display correctly, the **order** in which we draw them matters!
 
 For example, consider the scene below:
+
 ![bw_mountains.png](bw_mountains.png)
 
 We need to draw the sun *first* because it should always be at the "back" of the scene. Then the ground. Then the mountains.
@@ -59,6 +60,7 @@ function draw() {
 ```
 
 The results in the tree being drawn "on top" of the rest of the scene:
+
 ![bw_scene.png](bw_scene.png)
 
 The concept of "order" in our code will be important when we add colors as well. Each time we define a color to be used, that color is used for everything drawn (until the color changes again).
@@ -89,6 +91,7 @@ In order to fill the various shapes in the scene with color, we use the command 
 ```
 
 we get:
+
 ![orange_scene.png](orange_scene.png)
 
 
