@@ -8,8 +8,9 @@
 	}
 ```
 
-<img alt="p5.js execution flow" src="p5ExecutionFlow.png" width=100 align="right" />
 The p5.js library is structured to check if your program has defined a `setup()` function and a `draw()` function:
+
+![p5.js execution flow](p5ExecutionFlow.png)
 
 - If function `setup()` exists, p5 will call it first.
 - If function `draw()` exists, p5 will call it after setup() periodically (default is 60 times per second) for as long as the program runs. If not, execution ends.
@@ -118,7 +119,7 @@ Let's draw two more hearts diagonally offset from the first.
 ```
 Here's a screen shot of noStroke pink hearts following the mouse:
 
-<img src="aniDrawHeartx3.png" alt="Example 1 screen shot" width="300"/>
+![Example 1 screen shot](aniDrawHeartx3.png)
 
 &nbsp;
 
@@ -146,7 +147,7 @@ We have been using draw() to animate by pulling various shapes across the canvas
 		text(frameCount, 20, 20);
 	}
 ```
-<img src="aniAnimatedCircle.png" alt="Animated Circle preview" width="250"/>
+![Animated Circle preview](aniAnimatedCircle.png)
 
 &nbsp;
 
@@ -200,7 +201,8 @@ Our animation variables (so far) keep increasing until they go beyond the canvas
 
 **sin() function**: For any angle value, no matter how big or small, the *sine* of that angle is always between -1 and 1. The p5.js `sin()` function calculates the sine of an angle.
 
-<img src="aniSinWave.png" alt="sine function graph" width="200"/> Graph of sine function values
+Graph of sine function values
+![sine function graph](aniSinWave.png)
 
 ### Example 4: Draw 4 sine waves and animate a ball
 This example uses the p5.js `sin()` function to draw sine waves in the canvas, drawing each next point based on the `frameCount` variable. We can use math to scale and shift each sine wave's length and its center.
@@ -254,7 +256,7 @@ To make the math easier, in the `setup()` function, we tell p5.js to expect all 
 	  ellipse(ballX, 5, 10, 10);
 	}
 ```
-<img src="ani4wavesBall.png" alt="preview Sin Wave program" width="200"/>
+![preview Sin Wave program](ani4wavesBall.png)
 
 &nbsp;
 ### Example 5: Simplest Sine Scaling
