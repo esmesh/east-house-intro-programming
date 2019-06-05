@@ -177,8 +177,8 @@ We need to update the value of `shapeSize` based on the value of `mouseX`.
 
  &nbsp;
  
-### Next topic: <a href="./Animation.md">Functions, Frames, and Animation</a>
-### Previous topic: <a href="./Expressions.md">Math Expressions</a>
+### Next topic: <a href="./Animation.html">Functions, Frames, and Animation</a>
+### Previous topic: <a href="./Expressions.html">Math Expressions</a>
 
 ## References
 - JavaScript variables: <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">https://www.w3schools.com/js/js_variables.asp</a>
