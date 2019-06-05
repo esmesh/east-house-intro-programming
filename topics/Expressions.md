@@ -64,7 +64,7 @@ Can you draw another centered square - one that is 1/3 the size of the first - u
 
 
 &nbsp;
-### Next topic: <a href="./Variables.html">Variables</a>
+### Next topic: [Adding interactivity with Variables](topics/Variables.md)
 
 ## References
 - JavaScript arithmetic: <a href="https://www.w3schools.com/js/js_arithmetic.asp" target="_blank">https://www.w3schools.com/js/js_arithmetic.asp</a>
