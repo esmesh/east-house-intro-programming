@@ -63,6 +63,9 @@ rect(200 - (300 / 2), 200 - (300 / 2), 300, 300);
 Can you draw another centered square - one that is 1/3 the size of the first - using math expressions?
 
 
+&nbsp;
+### Next topic: <a href="./Variables.md">Variables</a>
+
 ## References
 - JavaScript arithmetic: <a href="https://www.w3schools.com/js/js_arithmetic.asp" target="_blank">https://www.w3schools.com/js/js_arithmetic.asp</a>
 - p5.js **ellipse** command: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
