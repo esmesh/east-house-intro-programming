@@ -39,7 +39,7 @@ Calculation options:
 ### Practice 1:
 We have two circles, can you draw two more circles that are positioned exactly 140 pixels below the first ones using math expressions for their y-coordinates?
 
-<img alt="4 Circles" src="mathExprCircles.png" width=300 />
+![4 Circles](mathExprCircles.png)
 
 
 ### Example 2
@@ -51,7 +51,7 @@ rect(0, 0, 300, 300);
 Draw a square centered at the middle of the 400x400 canvas.
 If the canvas is 400 wide and 400 high, the middle of it is (200, 200). Use a math expression to calculate the proper top-left corner position of the square given that it is 300 wide.
 
-<img alt="Centered square" src="centerSquareGrid.png" width=400 />
+![Centered square](centerSquareGrid.png)
 
 ```javascript
 // 300x300 square centered at (200, 200):
