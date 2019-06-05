@@ -63,6 +63,7 @@ Anywhere you need a number value, you could use a number-type variable or an exp
   ellipse(80, 100, 40, 40);
   ellipse(120, 100, 40, 40);
   // cone to hold them
+  // triangle(x1, y1, x2, y2, x3, y3);
   triangle(60, 105, 140, 105, 100, 160);
 
 ```
@@ -76,6 +77,7 @@ Anywhere you need a number value, you could use a number-type variable or an exp
   ellipse(100 - 20, 100, 40, 40);
   ellipse(100 + 20, 100, 40, 40);
   // cone to hold them
+  // triangle(x1, y1, x2, y2, x3, y3);
   triangle(100 - 40, 100 + 5, 100 + 40, 100 + 5, 100, 100 + 60);
 ```
 
@@ -87,6 +89,7 @@ Everywhere we used 100 for x and y coordinates, use mouseX and mouseY instead.
   ellipse(mouseX - 20, mouseY, 40, 40);
   ellipse(mouseX + 20, mouseY, 40, 40);
   // cone to hold them
+  // triangle(x1, y1, x2, y2, x3, y3);
   triangle(mouseX - 40, mouseY + 5, mouseX + 40, mouseY + 5, mouseX, mouseY + 60);
 ```
 <img alt="heart follows mouse in p5" src="singleHeartFollowsMouse.png" width="300"/>
