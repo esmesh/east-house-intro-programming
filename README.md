@@ -27,7 +27,7 @@ These courses will provide an introduction to core software programming concepts
 |------------|-------------------|
 |1:00-1:30pm| [Making code do our math (Expressions)](topics/Expressions.md)|
 |1:30-2:30pm| [Adding interactivity with Variables](topics/Variables.md)|
-|2:30-3:30pm| [Functions, Frames, and Animation](topics/Variables.md)|
+|2:30-3:30pm| [Functions, Frames, and Animation](topics/Animation.md)|
 
 ## Day 4 
 *June 6th*
