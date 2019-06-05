@@ -16,7 +16,7 @@ p5.js defines some variables for our use that store properties of the enviroment
 ```javascript
      function draw() {
 	     // Line from prior mouse position to current one
-		 // ... a continuous scribbler
+	     // ... a continuous scribbler
 	     line(pmouseX, pmouseY, mouseX, mouseY);
      }
 ```
