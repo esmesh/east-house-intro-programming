@@ -115,7 +115,7 @@ Once a variable has been defined with a **let** or a **var** statement, we can c
    // name_of_variable = new_value_or_expression;
    faveColor = "turquoise";
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;<img alt="left arrow" src="leftArrow.png" width=180 />&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; <img alt="left arrow" src="leftArrow.png" width=180 />&nbsp;&nbsp;
 The action goes right to left across the **=** sign: the value `"turquoise"` replaces any current value in the variable `faveColor`.
 
 ### Example 3: 3 circles using a variable
