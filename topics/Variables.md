@@ -175,6 +175,11 @@ We need to update the value of `shapeSize` based on the value of `mouseX`.
  
  When working properly, the size of the 3 shapes should grow and shrink together as you move your mouse across the canvas.
 
+ &nbsp;
+ 
+### Next topic: <a href="./Animation.md">Functions, Frames, and Animation</a>
+### Previous topic: <a href="./Expressions.md">Math Expressions</a>
+
 ## References
 - JavaScript variables: <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">https://www.w3schools.com/js/js_variables.asp</a>
 - p5.js **ellipse** command: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
