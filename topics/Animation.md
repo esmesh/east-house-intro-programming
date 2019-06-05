@@ -291,6 +291,9 @@ Can you edit your animation that moves the trio of hearts (or houses, sailboats,
 Can you oscillate the size of some shape in your scene based on frameCount or a variable of your own creation?
 
 &nbsp;
+
+### Previous topic: <a href="./Variables.md">Variables</a>
+
 ## References
 
 - p5.js **functions** example: <a href="https://p5js.org/examples/structure-functions.html">https://p5js.org/examples/structure-functions.html</a>
