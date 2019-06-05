@@ -292,7 +292,7 @@ Can you oscillate the size of some shape in your scene based on frameCount or a 
 
 &nbsp;
 
-### Previous topic: <a href="./Variables.html">Variables</a>
+### Previous topic: [Adding interactivity with Variables](Variables.md)
 
 ## References
 
