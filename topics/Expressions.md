@@ -9,14 +9,14 @@ Instead of doing math calculations in our heads, we can have JavaScript do the m
 
 ### Parentheses in Math Expressions
 You can use parentheses to organize more complicated expressions, for example:
-```
+```javascript
 (400 / 3) - 20
 ```
 Operations inside parentheses are computed first.
 
 ### Example 1
 Draw a circle centered at (80, 100):
-```
+```javascript
     // Circle at x = 80, y = 100, width & height = 40:
     ellipse(80, 100, 40, 40);
 ```
@@ -24,14 +24,14 @@ Draw a circle centered at (80, 100):
 
 Calculation options:
 1. Calculate `80 + 140` in my head, then type in the answer as the new x-coordinate in my code.
-```
+```javascript
     // Identical circle at x = 80 + 140:
     ellipse(220, 100, 40, 40);
 ```
 2. Open a new web browser tab, go to Google to search-calculate `80 + 140`, then type in the answer as the new x-coordinate in my code.
 
 3. Type in the **math expression `80 + 140`** as the new x-coordinate in my code.
-```
+```javascript
     // Identical circle at x = 80 + 140:
     ellipse(80 + 140, 100, 40, 40);
 ```
@@ -44,7 +44,7 @@ We have two circles, can you draw two more circles that are positioned exactly 1
 
 ### Example 2
 Draw a square whose top-left corner is at (0, 0):
-```
+```javascript
 // 300x300 square:
 rect(0, 0, 300, 300);
 ```
@@ -53,7 +53,7 @@ If the canvas is 400 wide and 400 high, the middle of it is (200, 200). Use a ma
 
 <img alt="Centered square" src="centerSquareGrid.png" width=400 />
 
-```
+```javascript
 // 300x300 square centered at (200, 200):
 // x coordinate: 200 - 300/2
 // y coordinate: 200 - 300/2
