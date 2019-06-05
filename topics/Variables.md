@@ -50,13 +50,13 @@ Anywhere you need a number value, you could use a number-type variable or an exp
 		text(key, mouseX, mouseY);
 	}
 ```
-<img alt="preview key following mouse" src="varKeyFollowsMouse.png" width="360"/>
+![preview key following mouse](varKeyFollowsMouse.png)
 
 &nbsp;
 
 ### Example 2: Math expressions with variables
 #### Stage 1: Draw a heart
-<img alt="heart drawing 1" src="heartCoordinates.png" width="400"/>
+![heart drawing 1](heartCoordinates.png)
 
 ```javascript
   // 2 scoops of ice cream
@@ -67,10 +67,10 @@ Anywhere you need a number value, you could use a number-type variable or an exp
   triangle(60, 105, 140, 105, 100, 160);
 
 ```
-<img alt="heart in p5" src="singleHeart.png" width="100"/>
+![heart in p5](singleHeart.png)
 
 #### Stage 2: Draw a heart relative to position (100, 100)
-<img alt="heart sketch 2" src="heartDrawingGrid.png" width="600"/>
+![heart sketch 2](heartDrawingGrid.png)
 
 ```javascript
   // 2 scoops of ice cream
@@ -92,7 +92,7 @@ Everywhere we used 100 for x and y coordinates, use mouseX and mouseY instead.
   // triangle(x1, y1, x2, y2, x3, y3);
   triangle(mouseX - 40, mouseY + 5, mouseX + 40, mouseY + 5, mouseX, mouseY + 60);
 ```
-<img alt="heart follows mouse in p5" src="singleHeartFollowsMouse.png" width="300"/>
+![heart follows mouse in p5](singleHeartFollowsMouse.png)
 
 &nbsp;
 
@@ -140,7 +140,7 @@ The action goes right to left across the **=** sign: the value `"turquoise"` rep
 	// Size a circle based on variable (this was pasted)
 	ellipse(width / 2, height / 2, shapeScale * 15, shapeScale * 15);
 ```
-<img alt="preview 3 Circles sketch" src="varIntro3circles.png" width=150 />
+![preview 3 Circles sketch](varIntro3circles.png)
 
 ### Example 4: consistent shapes using variable
 If you change the value of the variable in the following program, you change the size of all three shapes drawn.
@@ -165,7 +165,7 @@ If you change the value of the variable in the following program, you change the
 			width - shapeSize, height - shapeSize);
 	}
 ```
-<img alt="preview Consistent size shapes sketch" src="varConsistentShapes.png" width=200 />
+![preview Consistent size shapes sketch](varConsistentShapes.png)
 
 ### Practice 2:
 Let's edit the code in Example 4 to be interactive. 
