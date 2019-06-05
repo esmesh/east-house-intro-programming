@@ -74,10 +74,10 @@ NB: Feel free to make your function draw a house or a sailboat or an earring ins
 	  drawHeart();
 	}
 
-   // drawHeart : Draws two circles & a triangle
-   // to form a heart; relative to the location
-   // (heartX, heartY).
-   //
+	// drawHeart : Draws two circles & a triangle
+	// to form a heart; relative to the location
+	// (heartX, heartY).
+	//
 	function drawHeart() {
 	  // 2 scoops of ice cream
 	  ellipse(heartX - 20, heartY, 40, 40);
@@ -117,6 +117,7 @@ Let's draw two more hearts diagonally offset from the first.
 	}
 ```
 Here's a screen shot of noStroke pink hearts following the mouse:
+
 <img src="aniDrawHeartx3.png" alt="Example 1 screen shot" width="300"/>
 
 &nbsp;
@@ -191,3 +192,110 @@ In draw(), we will update the animateX variable by making it a little bit bigger
 	  drawHeart();
 	}
 ```
+
+&nbsp;
+
+## Extra Time Content: sin() function for animation
+Our animation variables (so far) keep increasing until they go beyond the canvas. We can use a math function to make them oscillate within boundaries we calculate instead: the p5.js **sin()** function (the trigonometric sine function).
+
+**sin() function**: For any angle value, no matter how big or small, the *sine* of that angle is always between -1 and 1. The p5.js `sin()` function calculates the sine of an angle.
+
+<img src="aniSinWave.png" alt="sine function graph" width="200"/> Graph of sine function values
+
+### Example 4: Draw 4 sine waves and animate a ball
+This example uses the p5.js `sin()` function to draw sine waves in the canvas, drawing each next point based on the `frameCount` variable. We can use math to scale and shift each sine wave's length and its center.
+The same approach is used to make a ball oscillate from left to right at the top of the canvas.
+
+To make the math easier, in the `setup()` function, we tell p5.js to expect all angle values within the program to be in degrees:
+**`angleMode(DEGREES);`**
+
+```javascript
+	// Use frameCount and the sin() function to
+	// draw 4 slightly different sine waves
+
+	function setup() {
+	  createCanvas(400, 400);
+	  // Read angle values in degrees, not radians
+	  angleMode(DEGREES);
+	}
+
+	function draw() {
+	  // Set height of each sine wave:
+	  let waveHeight = 40;
+
+	  // wave oscillates above & below y = 50
+	  let wave1y = sin(frameCount) * waveHeight;
+	  line(0, 50, width, 50); // reference line
+	  point(frameCount, 50 + wave1y);
+
+	  // wave shifted down to oscillate entirely
+	  // below y = 100
+	  // Instead of: (-1 to 1) * waveHeight
+	  // calculate: (1 + (-1 to 1)) * waveHeight
+	  //            = (0 to 2) * waveHeight
+	  let wave2y = (1 + sin(frameCount)) * waveHeight;
+	  line(0, 100, width, 100); // reference line
+	  point(frameCount, 100 + wave2y);
+
+	  // Instead of using frameCount for each point's x, scale
+	  // the wavelength by using a fraction of frameCount as x
+	  let wave3y = sin(frameCount) * waveHeight;
+	  line(0, 250, width, 250); // reference line
+	  point(frameCount * .5, 250 + wave3y);
+
+	  // This wave is shifted up ((-2 to 0) * waveHeight)
+	  // and wavelength is scaled
+	  let wave4y = (sin(frameCount) - 1) * waveHeight;
+	  line(0, 400, width, 400); // reference line
+	  point(frameCount * .2, 400 + wave4y);
+
+	  // Oscillate ball within the width of the canvas
+	  let ballX = (1 + sin(frameCount)) * width / 2;
+	  ellipse(ballX, 5, 10, 10);
+	}
+```
+<img src="ani4wavesBall.png" alt="preview Sin Wave program" width="200"/>
+
+&nbsp;
+### Example 5: Simplest Sine Scaling
+Scale the size of a circle using the sin() function. The key line within our code:
+
+&nbsp;&nbsp;&nbsp;&nbsp; `let shapeSize = (1 + sin(frameCount)) * width / 2;`
+
+This variable will oscillate between 0 and the width of the canvas for the duration of the program.
+
+```javascript
+	function setup() {
+	  createCanvas(400, 400);
+	  // Read angle values in degrees, not radians
+	  angleMode(DEGREES);
+	}
+
+	function draw() {
+	  background(220);
+						  
+	  // Set shapeSize to oscillate 0 to width
+	  // as frameCount increases
+	  let shapeSize = (1 + sin(frameCount)) * width / 2;
+						  
+	  // The circle's size is determined by
+	  // the value of the variable, shapeSize
+	  ellipse(width / 2, height / 2, shapeSize, shapeSize);
+	}
+```
+
+&nbsp;
+### Practice Options
+Can you edit your animation that moves the trio of hearts (or houses, sailboats, etc.) so that the x and/or the y coordinate oscillates rather moving off the canvas?
+
+Can you oscillate the size of some shape in your scene based on frameCount or a variable of your own creation?
+
+&nbsp;
+## References
+
+- p5.js **functions** example: <a href="https://p5js.org/examples/structure-functions.html">https://p5js.org/examples/structure-functions.html</a>
+- p5.js **frameRate** command: <a href="https://p5js.org/reference/#/p5/frameRate">https://p5js.org/reference/#/p5/frameRate</a>
+- p5.js **sin** command: <a href="https://p5js.org/reference/#/p5/sin">https://p5js.org/reference/#/p5/sin</a>
+- p5.js **angleMode** command: <a href="https://p5js.org/reference/#/p5/angleMode">https://p5js.org/reference/#/p5/angleMode</a>
+
+
