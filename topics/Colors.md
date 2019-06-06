@@ -56,6 +56,13 @@ function draw() {
   triangle(210, 110, 270, 50, 300, 110);
   triangle(300, 110, 320, 10, 360, 110);
   triangle(360, 110, 400, 40, 400, 110);
+
+  // Tree trunk
+  triangle(220, 70, 200, 180, 230, 180);
+  
+  // Tree top
+  ellipse(220, 70, 100, 100);
+  
 }
 ```
 
@@ -172,13 +179,13 @@ To change the outline color and weight (i.e. to make the sun look more interesti
 ![final_scene.png](final_scene.png)
 
 ## References
-https://www.w3schools.com/colors/colors_names.asp
-https://p5js.org/learn/color.html
-https://p5js.org/reference/#/p5/background
-https://p5js.org/reference/#/p5/fill
-https://p5js.org/reference/#/p5/noStroke
-https://p5js.org/reference/#/p5/stroke
-https://p5js.org/reference/#/p5/strokeWeight
+- Color names: <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a>
+- About colors in p5.js: <a href="https://p5js.org/learn/color.html" target="_blank">https://p5js.org/reference/#/p5/color</a>
+- background: <a href="https://p5js.org/reference/#/p5/background" target="_blank">https://p5js.org/reference/#/p5/background</a>
+- fill: <a href="https://p5js.org/reference/#/p5/fill" target="_blank">https://p5js.org/reference/#/p5/fill</a>
+- noStroke: <a href="https://p5js.org/reference/#/p5/noStroke" target="_blank">https://p5js.org/reference/#/p5/noStroke</a>
+- stroke: <a href="https://p5js.org/reference/#/p5/stroke" target="_blank">https://p5js.org/reference/#/p5/stroke</a>
+- strokeWeight: <a href="https://p5js.org/reference/#/p5/strokeWeight" target="_blank">https://p5js.org/reference/#/p5/strokeWeight</a>
 
 ## Another Example
 The code below adds colors to the shape example from last time. Run it and see what you get!
@@ -224,3 +231,4 @@ The code below adds colors to the shape example from last time. Run it and see w
  ```
 
 [Click here for the color example result](colors.png)
+

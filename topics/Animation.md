@@ -297,7 +297,6 @@ Can you oscillate the size of some shape in your scene based on frameCount or a 
 ### Previous topic: [Adding interactivity with Variables](Variables.md)
 
 ## References
-
 - p5.js **functions** example: <a href="https://p5js.org/examples/structure-functions.html">https://p5js.org/examples/structure-functions.html</a>
 - p5.js **frameRate** command: <a href="https://p5js.org/reference/#/p5/frameRate">https://p5js.org/reference/#/p5/frameRate</a>
 - p5.js **sin** command: <a href="https://p5js.org/reference/#/p5/sin">https://p5js.org/reference/#/p5/sin</a>

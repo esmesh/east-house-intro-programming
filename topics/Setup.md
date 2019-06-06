@@ -41,3 +41,5 @@ In order to write and **save** programs, we'll be using an online p5.js editor. 
 - Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 - p5.js Searchable reference: <a href="https://p5js.org/reference/" target="_blank">https://p5js.org/reference/</a>
 - p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
+
+**For a full list of references, see [References](References.md).**
