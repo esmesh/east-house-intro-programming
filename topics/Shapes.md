@@ -20,13 +20,9 @@ point(4, 5);
 line(0, 0, 4, 5); 
 ```
 
-
-
 #### Practice
-**Using your graph paper, try to figure out what the following program will draw.**
-
-Hints: 
-- If you assume that each square in the grid is 10 pixels wide and 10 pixels high, everything draw will be on one of the grid lines.
+Using your graph paper, try to figure out what the following program will draw. 
+- If you assume that each square in the grid is 10 pixels wide and 10 pixels high, everything drawn will be on one of the grid lines.
 - Start by drawing the outline of the canvas and figuring out the cooridinates of each corner (i.e. the top left is x=0, y=0).
 - Remember that a point's parameters are in the order: X ,  Y
 - Remember that a line's parameters are in the order: Start X, Start Y, End X, End Y
