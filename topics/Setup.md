@@ -35,12 +35,3 @@ In order to write and **save** programs, we'll be using an online p5.js editor. 
 3. Decide on a username and password **(write these down in your notebook!)**.
 4. Enter an email address (if you don't have a personal email address, we can help you create one)
 5. Click `Sign Up`
-
-
-## Resources
-- Course website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
-- Online editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
-- p5.js Searchable reference: <a href="https://p5js.org/reference/" target="_blank">https://p5js.org/reference/</a>
-- p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
-
-**For a full list of references, see [References](References.md).**
