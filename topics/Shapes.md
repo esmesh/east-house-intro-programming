@@ -4,8 +4,7 @@ p5.js provides many pre-written functions for drawing common shapes. We can cont
 
 ### Points & Lines
 
-**Points** are drawn as single dots on the canvas at the given coordinate.
-
+**Points** are drawn as single dots given as two parameters to the `point` function: X, then Y
 ```
 // x = 4, y = 5
 point(4, 5); 
@@ -13,8 +12,7 @@ point(4, 5);
 
 ![Point](point.png)
 
-**Lines** are drawn between two coordinates.
-
+**Lines** are drawn between two coordinates given as four parameters to the `line` function: Start X, Start Y, End X, End Y
 ```
 // Line between 0, 0 & 4, 5
 line(0, 0, 4, 5); 
@@ -22,10 +20,8 @@ line(0, 0, 4, 5);
 
 #### Practice
 Using your graph paper, try to figure out what the following program will draw. 
-- If you assume that each square in the grid is 10 pixels wide and 10 pixels high, everything drawn will be on one of the grid lines.
+- Assume that each square in the grid is 10 pixels wide and 10 pixels high.
 - Start by drawing the outline of the canvas and figuring out the cooridinates of each corner (i.e. the top left is x=0, y=0).
-- Remember that a point's parameters are in the order: X ,  Y
-- Remember that a line's parameters are in the order: Start X, Start Y, End X, End Y
 
 ```
 function setup() {
