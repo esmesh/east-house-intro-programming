@@ -1,7 +1,7 @@
 # East House Enrichment Program @ RIT, June 2019
 These courses will provide an introduction to core software programming concepts. Each student will work individually and in small groups to write programs that generate pictures of their own design. Time permitting, we’ll then add interactivity to the images by changing what the program does depending on the user’s mouse and/or keyboard actions.
 
-*A consolidated list of the resources used during this class (and others) can be found by **[clicking this link](topics/References)**.*
+*A consolidated list of the resources used during this class (and others) can be found by **[clicking this link](topics/References.md)**.*
 
 ## Day 1
 *Monday, June 3rd & Monday, June 10th*
