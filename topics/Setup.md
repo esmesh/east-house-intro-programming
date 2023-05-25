@@ -16,7 +16,7 @@ Your notebook is a place for you to collect thoughts and information from the cl
 3. Pocket
     - Collecting handouts, etc.
     
-### Logging into the computer and opening Chrome ![chrome_logo.png](chrome_logo.png)
+### Logging into the computer and opening Chrome ![chrome_logo.png](images/chrome_logo.png)
 At the start of each class:
 1. Log into a lab computer using the RIT account given to you.
 2. Open the Chrome web browser
@@ -29,9 +29,12 @@ https://esmesh.github.io/east-house-intro-programming/
 ### Online editor
 In this class, we'll be writing *JavaScript* programs that utilize the *p5.js library* to support drawing shapes onto a digital canvas.
 
-In order to write and **save** programs, we'll be using an online p5.js editor. The first step is to open the editor and create a new account.
-1. Go to <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
-2. In the top right corner, select `Sign Up`
-3. Decide on a username and password **(write these down in your notebook!)**.
-4. Enter an email address (if you don't have a personal email address, we can help you create one)
-5. Click `Sign Up`
+Without logging in, you can write and run programs using an online p5.js editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a> 
+
+If you want to be able to **save** your work for later:
+1. In the top right corner, select `Sign Up`
+2. If you have a Google email address, you can sign up via `Login with Google`
+3. If you want to create a new login:
+    1. Decide on a username and password **(write these down in your notebook!)**.
+    2. Enter an email address *(if you don't have a personal email address, we can help you create one)*
+    3. Click `Sign Up`
