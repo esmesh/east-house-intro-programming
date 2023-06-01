@@ -6,7 +6,7 @@
 Everything with the starting `{` and ending `}` of the function will be run, in the order that it is written, by the computer. Any lines beginning with `\\` are ignored by the computer. These are **comment** lines and we use them to add our own notes to the program.
 
 
-```
+```javascript
 // setup: Called automatically ONCE 
 //          at the start of the program
 function setup() {
@@ -30,7 +30,7 @@ We create the canvas and specify its size, in pixels, using the `createCanvas` c
 
 For example, the following statements, placed inside `setup()`, create a blank canvas 200 pixels high and 200 pixels wide.
 
-```
+```javascript
 function setup() {
     createCanvas(200, 200);
 }
@@ -49,20 +49,20 @@ In order to draw something onto the canvas, we need to know:
 
 For example, in the 200x200 canvas defined above, the top left would be at x=0, y=0. The bottom right would be at x=200, y=200. We can represent this using a coordinate grid *(this is why your notebooks have graph paper)*.
 
-![Sample canvas](canvas200_200.PNG)
+![Sample canvas](images/canvas200_200.PNG)
 
 We provide the coordinate where we want to *start* drawing to draw something at a specific location on the canvas.
 
 To draw the text "Hello East House!" in the top left corner of the canvas (with a small offset right and down), we add statements to set the background to white and draw the text at the coordinates x=25, y=25.
 
-```
+```javascript
 function draw() {
     background("White");
     text("Hello East House!", 25, 25);
 }
 ```
 
-![Hello East House](HelloEH.PNG)
+![Hello East House](images/HelloEH.PNG)
 
 ### Command structure
 The `createCanvas`, `background`, and `text` commands used above are examples of **function calls**. In other words, we are telling the computer to run other functions (like setup, but written by someone else) using information we provide.
@@ -82,16 +82,16 @@ Given the *function name* and required *parameters* for the function, we can fig
 
 To change the text that is drawn, change the *data* passed into the 1st parameter between the quotation marks:
 
-```
+```javascript
 text("My name is Erika!", 25, 25);
 ```
 
 The change the location of the text to be still on the left side, but halfway down the canvas, we change the data passed into the 3rd parameter from `25` to `100`:
-```
+```javascript
 text("My name is Erika!", 25, 100);
 ```
 
-![My name is...](MyNameIs.PNG)
+![My name is...](images/MyNameIs.PNG)
 
 ## References
 - About setup: <a href="https://p5js.org/reference/#/p5/setup" target="_blank">https://p5js.org/reference/#/p5/setup</a>

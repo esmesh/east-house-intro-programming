@@ -10,7 +10,7 @@ For example, consider the scene below:
 We need to draw the sun *first* because it should always be at the "back" of the scene. Then the ground. Then the mountains.
 
 The code for this is:
-```
+```javascript
 function setup() {
   // I need a 400x200 canvas
   createCanvas(400, 200);
@@ -38,7 +38,7 @@ function draw() {
 
 If we want to add a tree to the front of the picture, that code gets added *after* the set of triangles used to draw the mountains.
 
-```
+```javascript
 function draw() {
   // Set the overall background color
   background(220);
@@ -79,7 +79,7 @@ To see a list of available color names, see <a href="https://www.w3schools.com/c
 
 ## Background
 To change the background color of the canvas, we use the command `background` with a color name:
-```
+```javascript
 background("Aqua");
 ```
 
@@ -91,7 +91,7 @@ Adding this to our scene results in:
 ## Filling shapes
 In order to fill the various shapes in the scene with color, we use the command `fill` with a color name. **However**, once we set a fill color **ALL** shapes will become that color. For example, if we set the fill to `"DarkOrange"` before drawing the sun using:
 
-```
+```javascript
   // Sun
   fill("DarkOrange");
   ellipse(350, 20, 40, 40);
@@ -104,7 +104,7 @@ we get:
 
 In order to have each shape be its own color, we need to keep changing the fill. The final code to produce a colored scene is:
 
-```
+```javascript
 function setup() {
   // I need a 400x200 canvas
   createCanvas(400, 200);
@@ -151,7 +151,7 @@ The colored scene above looks pretty good, but the black outlines on each shape 
 
 To make them go away, we can add `noStroke();` right after setting the background color.
 
-```
+```javascript
   // Set the overall background color
   background("Aqua");
   
@@ -164,7 +164,7 @@ To make them go away, we can add `noStroke();` right after setting the backgroun
 
 To change the outline color and weight (i.e. to make the sun look more interesting), we can use the commands `stroke` to set the color and `strokeWeight` to set the width of the line (in pixels).
 
-```
+```javascript
   // Sun (with a gold border)
   stroke("DarkOrange");
   strokeWeight(5);
@@ -190,7 +190,7 @@ To change the outline color and weight (i.e. to make the sun look more interesti
 ## Another Example
 The code below adds colors to the shape example from last time. Run it and see what you get!
 
-```
+```javascript
     // Create a blank canvas 600 pixels high and 600 pixels wide
     createCanvas(400, 400);
 

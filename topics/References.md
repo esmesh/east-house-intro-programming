@@ -1,6 +1,5 @@
 ## [Setting Up](../Setup.md) & General Resources
 - **Workshop overview:** <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
-- **Workshop examples:** <a href="https://tinyurl.com/east-house-p5-2023" target="_blank">https://tinyurl.com/east-house-p5-2023</a>
 - **Online editor:** <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 - p5.js Searchable reference: <a href="https://p5js.org/reference/" target="_blank">https://p5js.org/reference/</a>
 - p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>

@@ -5,7 +5,7 @@ p5.js provides many pre-written functions for drawing common shapes. We can cont
 ### Points & Lines
 
 **Points** are drawn as single dots given as two parameters to the `point` function: X, then Y
-```
+```javascript
 // x = 4, y = 5
 point(4, 5); 
 ```
@@ -13,7 +13,7 @@ point(4, 5);
 ![Point](point.png)
 
 **Lines** are drawn between two coordinates given as four parameters to the `line` function: Start X, Start Y, End X, End Y
-```
+```javascript
 // Line between 0, 0 & 4, 5
 line(0, 0, 4, 5); 
 ```
@@ -23,7 +23,7 @@ Using your graph paper, try to figure out what the following program will draw.
 - Assume that each square in the grid is 10 pixels wide and 10 pixels high.
 - Start by drawing the outline of the canvas and figuring out the cooridinates of each corner (i.e. the top left is x=0, y=0).
 
-```
+```javascript
 function setup() {
   createCanvas(200, 200);
 }
@@ -49,7 +49,7 @@ function draw() {
 ### Rectangles
 **Rectangles** are drawn with their top left corner at a given coordinate using a given width and height.
 
-```
+```javascript
 // Rectangle starting at 1, 2
 // with a width of 4 and height of 3
 rect(1, 2, 4, 3);
@@ -60,7 +60,7 @@ rect(1, 2, 4, 3);
 ### Ellipses
 **Ellipses (ovals)** are drawn with their *center* at a given coordinate using a given width and height.
 
-```
+```javascript
 // Ellipse centered at 3, 3
 // with a width of 4 and height of 6
 ellipse(3, 3, 4, 6);
@@ -72,7 +72,7 @@ ellipse(3, 3, 4, 6);
 ### Triangles & Quads
 **Triangles** and **Quads** are drawn as connections between the given coordinates. (3 coordinates for triangles, 4 for quads.)
 
-```
+```javascript
 // Triangle with corners at: 
 // - 4, 2
 // - 7, 8
@@ -82,7 +82,7 @@ triangle(4, 2, 7, 8, 2, 7);
 ![Triangle](triangle.png)
 
 
-```
+```javascript
 // Quad with corners at: 
 // - 2, 1
 // - 8, 2
@@ -94,7 +94,7 @@ quad(2, 1, 8, 2, 7, 7, 1, 4);
 
 ## Example
 
-```
+```javascript
     // Top left - a point and a line
     point(20, 20);
     
