@@ -11,10 +11,10 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 
 ### Day 1: Monday, June 5th
 
-1. [Setting Up](Setup.md)
-2. [Running a program](Hello.md)
-3. [Shapes & Colors](Smiley.md)
-4. [Letting the computer do the math](Flower.md)
+1. [Setting Up](topics/Setup.md)
+2. [Running a program](topics/Hello.md)
+3. [Shapes & Colors](topics/Smiley.md)
+4. [Letting the computer do the math](topics/Flower.md)
 5. Design your program!
 
 ### Day 2: Wednesday, June 5th
