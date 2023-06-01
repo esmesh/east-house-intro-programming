@@ -45,23 +45,28 @@ code, pre {
   word-wrap:normal;
 }
 
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
+code {
+  padding: 0 3px;
+  background-color: #f8f8f8;
+  border: solid 1px #dbe7f3;
 }
+
+pre {
+    padding: 8px 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    overflow-x: auto;
+  display: block;
+  white-space: pre;
+}
+
 ul, ol, dl {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
 /* COMMON STYLES */
-code, pre {
-    font-size: 0.7rem;
-}
-
 #main-content h2 {
     margin-bottom: 0.25rem;
 }
