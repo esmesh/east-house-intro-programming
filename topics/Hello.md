@@ -1,4 +1,4 @@
-## EVERY software developer starts with a `Hello World` project!
+## EVERY software developer starts with a **Hello World** project!
 
 ### Create a new sketch
 
