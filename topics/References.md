@@ -1,4 +1,4 @@
-## [Setting Up](../Setup.md) & General Resources
+## [Setting Up](topics/Setup.md) & General Resources
 - **Workshop overview:** <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
 - **Online editor:** <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 - p5.js Searchable reference: <a href="https://p5js.org/reference/" target="_blank">https://p5js.org/reference/</a>
