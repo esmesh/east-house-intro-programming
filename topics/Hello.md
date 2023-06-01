@@ -85,9 +85,6 @@ text("My name is Erika!", 25, 100);
 ![My name is...](images/MyNameIs.PNG)
 
 ## Full demo code
-<details>
-    <summary>Click to see full demo code</summary>
-    
 ```javascript
 // SETUP: Called automatically ONCE 
 //        at the start of the program
@@ -105,8 +102,8 @@ function draw() {
 
   // New text and a y coordinate further down on the canvas
   text("My name is Erika!", 25, 100); 
-}```
-</details>
+}
+```
 
 ## Things to try!
 - [ ] Change the text to have your name
