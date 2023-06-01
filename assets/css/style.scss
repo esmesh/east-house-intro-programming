@@ -44,10 +44,16 @@ code, pre {
 }
 
 ul, ol, dl {
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 /* COMMON STYLES */
+code, pre {
+    font-size: 0.7rem;
+}
 
+#main-content h2 {
+    margin-bottom: 0.25rem;
+}
 /* GENERAL ELEMENT TYPE STYLES */
