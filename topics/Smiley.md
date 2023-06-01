@@ -36,11 +36,15 @@ Colors are added by calling `fill` with a color name before the statements for d
   ellipse(160,160,10);       // Left eye
   ellipse(240,160,10);       // Right eye
 ```
+## Things to try!
+- [ ] Change some colors
+- [ ] Make the face, eyes, and/or nose bigger
+- [ ] Add some freckles
+- [ ] Change the ORDER of some statements
+    - What happens if the call to draw the face is last?!
+- [ ] Change the sizes/placement of the sample shapes at the bottom
 
 ## Full demo code
-<details>
-    <summary>Click to see full demo code</summary>
-    
 ```javascript
 // SETUP: Called automatically ONCE 
 //        at the start of the program
@@ -146,11 +150,3 @@ function draw() {
 
 }
 ```
-</details>
-
-## Things to try!
-- [ ] Change some colors
-- [ ] Make the face, eyes, and/or nose bigger
-- [ ] Change the ORDER of some statements
-    - What happens if the call to draw the face is last?!
-- [ ] Change the sizes/placement of the sample shapes at the bottom
