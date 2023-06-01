@@ -2,3 +2,46 @@
 ---
 
 @import "{{ site.theme }}";
+/* LAYOUT STYLES */
+body {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header h2 {
+  width: 3rem;
+}
+
+a.button {
+  font-size: 1.2rem;
+}
+a.button small {
+  font-size: 1rem;
+}
+
+aside a.button {
+  font-size: 1.2rempx;
+}
+
+code, pre {
+  font-size: 1rem;
+}
+
+ul, ol, dl {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* COMMON STYLES */
+
+/* GENERAL ELEMENT TYPE STYLES */
