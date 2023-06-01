@@ -7,11 +7,17 @@ Since our time is limited, the primary goal is to give everyone a chance to see 
 
 ### Day 1: Monday, June 5th
 
-1. [Setup](topics/Setup.md)
-2. Running a program
+1. [Setting Up](Setup.md)
+2. Canvas layout
+3. Running a program
+4. Drawing shapes
+5. Adding colors
+6. Design your program!
 
 ### Day 2: Wednesday, June 5th
 
+1. Implement your design!
+2. Adding movement
 
 
 *See [the 2019 materials](2019/README.md) for the long format version of this workshop.*
