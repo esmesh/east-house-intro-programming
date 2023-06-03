@@ -9,15 +9,11 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 - Learn a few programming concepts so that you can customize the programs
 - Work with a partner to edit the demo code & try your hand at designing your own program
 
-### Day 1: Monday, June 5th
+### Workshop activities
+*We'll get as far as we can on Day 1 while leaving plenty of time for you to play around and brainstorm things you'd like to try. On Day 2, we'll wrap up some demos and then focus on helping you make your own programs!*
 
 1. [Setting Up](topics/Setup.md)
 2. [Running a program](topics/Hello.md)
 3. [Shapes & Colors](topics/Smiley.md)
 4. [Letting the computer do the math](topics/Flower.md)
-5. Design your program!
-
-### Day 2: Wednesday, June 5th
-
-1. Implement your design!
-2. Adding movement
+5. [Adding interactions & movement!](topics/FlowerAnimations.md)

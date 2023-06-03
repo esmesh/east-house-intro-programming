@@ -8,10 +8,44 @@ Use `File -> New` to create a new default program.
 
 *The editor will give it some kind of silly default name (e.g., "Fossil accelerator"). You can change the name to whatever you want.*
 
+### Copy/paste in this demo code
+```javascript
+// SETUP: Called automatically ONCE 
+//        at the start of the program
+//
+// * We don't draw things from inside these { }'s
+function setup() {
+  createCanvas(200, 200);
+}
+
+// DRAW : Called automatically repeatedly to keep
+//        drawing whatever we define within { }
+function draw() {
+  background(220); // 220 is a # value for a gray background
+  text("Hello East House!", 25, 25);
+
+  // New text and a y coordinate further down on the canvas
+  text("My name is Erika!", 25, 100); 
+}
+```
+
+### Running the program
+Press the play button to run the program. The default sketch will draw a single gray square.
+![Run Program](images\RunProgram.png)
+
+### Things to try!
+- [ ] Change the text to have your name
+- [ ] Use a different background color
+    - See <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a> for the possible color names.
+- [ ] Add new text somewhere else on the canvas
+
+
+## What's going on?
+
 ### Program structure
 **Functions** are sections of program code that the computer runs together. By default, every p5.js program has two main "functions": `setup` and `draw`.
 - Everything with the starting `{` and ending `}` of the function will be run, in the order that it is written, by the computer when that function is called.
-- Any lines beginning with `\\` are ignored by the computer. These are **comment** lines and we use them to add our own notes to the program.
+- Any lines beginning with `//` are ignored by the computer. These are **comment** lines and we use them to add our own notes to the program.
 
 
 ```javascript
@@ -35,10 +69,6 @@ To make the program actually do something, we call **command statements** within
 1. `createCanvas` to specify the size of the drawing
 2. `background` to reset the background color every time the picture is drawn
  
-### Running the program
-Press the play button to run the program. The default sketch will draw a single gray square.
-![Run Program](images\RunProgram.png)
-
 ### Drawing
 Everything we draw using p5.js is placed onto a **canvas**. In order to draw something onto the canvas, we need to know:
 - what we want to draw
@@ -83,30 +113,3 @@ text("My name is Erika!", 25, 100);
 ```
 
 ![My name is...](images/MyNameIs.PNG)
-
-## Things to try!
-- [ ] Change the text to have your name
-- [ ] Use a different background color
-    - See <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a> for the possible color names.
-- [ ] Add new text somewhere else on the canvas
-
-## Full demo code
-```javascript
-// SETUP: Called automatically ONCE 
-//        at the start of the program
-//
-// * We don't draw things from inside these { }'s
-function setup() {
-  createCanvas(200, 200);
-}
-
-// DRAW : Called automatically repeatedly to keep
-//        drawing whatever we define within { }
-function draw() {
-  background(220); // 220 is a # value for a gray background
-  text("Hello East House!", 25, 25);
-
-  // New text and a y coordinate further down on the canvas
-  text("My name is Erika!", 25, 100); 
-}
-```
