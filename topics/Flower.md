@@ -9,7 +9,7 @@ The computer doesn't understand plain English, but it can at least let us define
   - They are called "variables" because the value that they store can change - vary - and be updated.
 2. An **expression** lets us use common math **operators** (+, -, *, /) to tell the computer to perform calculations for us.
 
-** *Anywhere* you need a number value, you can use a number-type variable or an expression with a number-type variable. Likewise for string values and variables.**
+***Anywhere* you need a number value, you can use a number-type variable or an expression with a number-type variable. Likewise for string values and variables.**
 
 ### Putting it together
 Instead of "hard-coding" our shapes to be a certain size or draw at certain locations, we can define a few variables about the size of the canvas and how big/where we want everything else in relation to that size.
@@ -24,7 +24,7 @@ let sunX = 0;
 let sunY = sunSize/4;
 ```
 
-**Copy & run the full [flower demo code](flowerDemoCode.md)**
+#### **Copy & run the full [flower demo code](flowerDemoCode.md)**
 
 ### Things to try!
 - [ ] Change ***only*** the `canvasSize` variables.
