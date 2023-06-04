@@ -89,10 +89,10 @@ Colors are added by calling `fill` with a color name before the statements for d
 - [ ] Change some colors
 - [ ] Make the face, eyes, and/or nose bigger
 - [ ] Add some freckles
-[ ] Change the ORDER of some statements
+- [ ] Change the ORDER of some statements
     - What happens if the call to draw the face is last?!
-[ ] Change the sizes/placement of the sample shapes at the bottom
-[ ] Implement the heart example from the [Getting Started](GettingStarted.md) page
+- [ ] Change the sizes/placement of the sample shapes at the bottom
+- [ ] Implement the heart example from the [Getting Started](GettingStarted.md) page
     - Draw out the layout in your notebook
     - What shapes do you need?
     - What are their coordinates/sizes?
