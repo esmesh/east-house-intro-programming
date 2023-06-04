@@ -19,10 +19,7 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 1. [Getting Started](topics/GettingStarted.md)
 2. [Hello East House!](topics/Hello.md)
 4. [Shapes & Colors](topics/Smiley.md)
-    - [Smiley face demo code](topics/smileyDemoCode.md)
-    - [Heart example](topics/HeartExample.md)
 5. [Letting the computer do the math](topics/Flower.md)
-    - [Flower demo code](topics/flowerDemoCode.md)
 6. [Adding interactions & movement!](topics/FlowerAnimations.md)
 
 
