@@ -2,24 +2,27 @@
 p5.js provides many pre-written functions for drawing common shapes & adding colors to them. 
 
 We can make large letters using lines:
+
 ![HI lines](images/HI.png)
 
 A smiley face is a set of circles and arcs:
+
 ![Smiley face](images/smiley.png)
 
 p5.js has support for a lot of basic shapes that we can combine however/wherever we want!
+
 ![Basic shapes](images/otherShapes.png)
 
 ## Putting it together
 ### **Copy ALL of the code from [the smiley demo](smileyDemoCode.md) and run it!**
 
 ## Things to try!
-- [ ] Change some colors
-- [ ] Make the face, eyes, and/or nose bigger
-- [ ] Add some freckles
-- [ ] Change the ORDER of some statements
+[ ] Change some colors
+[ ] Make the face, eyes, and/or nose bigger
+[ ] Add some freckles
+[ ] Change the ORDER of some statements
     - What happens if the call to draw the face is last?!
-- [ ] Change the sizes/placement of the sample shapes at the bottom
+[ ] Change the sizes/placement of the sample shapes at the bottom
 
 ## How does it work?
 
