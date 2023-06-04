@@ -10,15 +10,19 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 - See what is possible wih p5.js
 - Run some pre-made programs
 - Learn a few programming concepts so that you can customize the programs
-- Work with a partner to edit the demo code & try your hand at designing your own program
+- Edit the demo code a bit to play with how things work
+- Try your hand at designing your own program
+
+*See [References](References.md) for more details on the topics we'll cover + other topics.*
 
 ### Workshop activities
 *We'll get as far as we can on Day 1 while leaving plenty of time for you to play around and brainstorm things you'd like to try. On Day 2, we'll wrap up some demos and then focus on helping you make your own programs!*
 
-1. [Setting Up](topics/Setup.md)
-2. [Running a program](topics/Hello.md)
+1. [Getting Started](topics/GettingStarted.md)
+2. [Hello East House!](topics/Hello.md)
 4. [Shapes & Colors](topics/Smiley.md)
     - [Smiley face demo code](topics/smileyDemoCode.md)
+    - [Heart example](topics/HeartExample.md)
 5. [Letting the computer do the math](topics/Flower.md)
     - [Flower demo code](topics/flowerDemoCode.md)
 6. [Adding interactions & movement!](topics/FlowerAnimations.md)
