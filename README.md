@@ -17,6 +17,8 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 
 1. [Setting Up](topics/Setup.md)
 2. [Running a program](topics/Hello.md)
-3. [Shapes & Colors](topics/Smiley.md)
-4. [Letting the computer do the math](topics/Flower.md)
-5. [Adding interactions & movement!](topics/FlowerAnimations.md)
+4. [Shapes & Colors](topics/Smiley.md)
+ - [Smiley face demo code](topics/smileyDemoCode.md)
+5. [Letting the computer do the math](topics/Flower.md)
+ - [Flower demo code](topics/flowerDemoCode.md)
+6. [Adding interactions & movement!](topics/FlowerAnimations.md)
