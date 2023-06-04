@@ -1,6 +1,6 @@
-## EVERY software developer starts with a **Hello World** project!
+# EVERY software developer starts with a **Hello World** project!
 
-### Create a new sketch
+## Create a new sketch
 
 Use `File -> New` to create a new default program.
 
@@ -8,7 +8,7 @@ Use `File -> New` to create a new default program.
 
 *The editor will give it some kind of silly default name (e.g., "Fossil accelerator"). You can change the name to whatever you want.*
 
-### Copy/paste in this demo code
+## Copy/paste in this demo code
 ```javascript
 // SETUP: Called automatically ONCE 
 //        at the start of the program
@@ -29,11 +29,11 @@ function draw() {
 }
 ```
 
-### Running the program
+## Running the program
 Press the play button to run the program. The default sketch will draw a single gray square.
 ![Run Program](images\RunProgram.png)
 
-### Things to try!
+## Things to try!
 - [ ] Change the text to have your name
 - [ ] Use a different background color
     - See <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a> for the possible color names.

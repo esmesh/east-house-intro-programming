@@ -1,4 +1,4 @@
-## Letting the computer do the math
+# Letting the computer do the math
 The [smiley face](Smiley.md) example is nice, but it's pretty frustrating to have to work out the exact coordinates/sizes for every shape. Especially if we want to make more complex images.
 
 It'd be a LOT easier to tell the program to make a *"rectangle on the bottom third of the canvas"* or a *"circle in the middle"*.
@@ -11,7 +11,7 @@ The computer doesn't understand plain English, but it can at least let us define
 
 ***Anywhere* you need a number value, you can use a number-type variable or an expression with a number-type variable. Likewise for string values and variables.**
 
-### Putting it together
+## Putting it together
 Instead of "hard-coding" our shapes to be a certain size or draw at certain locations, we can define a few variables about the size of the canvas and how big/where we want everything else in relation to that size.
 
 ```javascript
@@ -26,7 +26,7 @@ let sunY = sunSize/4;
 
 #### **Copy & run the full [flower demo code](flowerDemoCode.md)**
 
-### Things to try!
+## Things to try!
 - [ ] Change ***only*** the `canvasSize` variables.
     - What happens to all the shapes?
 - [ ] Change the flower height or width
