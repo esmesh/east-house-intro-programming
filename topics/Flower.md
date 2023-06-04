@@ -14,6 +14,12 @@ The computer doesn't understand plain English, but it can at least let us define
 ## Putting it together
 Instead of "hard-coding" our shapes to be a certain size or draw at certain locations, we can define a few variables about the size of the canvas and how big/where we want everything else in relation to that size.
 
+For example, in the flower image below, *everything* is based on the size of the canvas. If we change our minds about how big the canvas square should be, we only have to change **one** number and everything else will scale correctly.
+
+![Flower image](images/flower.png)
+
+#### **Copy & run the full [flower demo code](flowerDemoCode.md)**
+
 ```javascript
 let canvasSize = 300;
 
@@ -24,12 +30,10 @@ let sunX = 0;
 let sunY = sunSize/4;
 ```
 
-#### **Copy & run the full [flower demo code](flowerDemoCode.md)**
-
 ## Things to try!
-- [ ] Change ***only*** the `canvasSize` variables.
+- Change ***only*** the `canvasSize` variables.
     - What happens to all the shapes?
-- [ ] Change the flower height or width
-- [ ] Try adding a bee 1 `flowerWidth` to the right of the top of the flower stem
+- Change the flower height or width
+- Try adding a bee 1 `flowerWidth` to the right of the top of the flower stem
     - *This is abstract art, the "bee" can be a simple circle or oval. ;)*
     - The top of the flower stem has variables for its X & Y coordinates: `stemTopX` and `stemTopY`

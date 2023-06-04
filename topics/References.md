@@ -3,7 +3,6 @@
 - **Online editor:** <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 - p5.js Searchable reference: <a href="https://p5js.org/reference/" target="_blank">https://p5js.org/reference/</a>
 - p5.js examples: <a href="https://p5js.org/examples/" target="_blank">https://p5js.org/examples/</a>
-- Collection of videos on coding with p5.js: <a href="https://thecodingtrain.com/Tutorials/" target="_blank">https://thecodingtrain.com/Tutorials/</a>
 - Book: *Learn JavaScript with p5.js: Coding for Visual Learners* by Engim Arslan (<a href="https://www.apress.com/gp/book/9781484234259" target="_blank">https://www.apress.com/gp/book/9781484234259</a>)
 
 ## [Canvas setup and drawing text](References/Drawing.md)

@@ -16,7 +16,7 @@ In this workshop, your development environment will be:
 
 We're using it because it lets you get up and running quickly so you can play with some core computing concepts and see immediate results. :)
 
-### Open (& login if you want) the editor
+### Open & login the editor
 Without logging in, you can write and run programs using an online p5.js editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 
 If you want to be able to **save** your work for later:
@@ -46,11 +46,7 @@ Professional software engineers use paper, whiteboards, etc. to brainstorm & col
 
 Because we'll be writing programs that generate 2d images, you'll make plans by drawing mockups of the final image on a grid.
 
-For example, for a 200x200 pixel image, our starting plan in our notebook would be a grid (with as few/many sub-lines as you want) that notes that the top left corner has X & Y coordinates of (0, 0). The bottom right is (200,200);
-
-![Sample canvas](images/canvas200_200.PNG)
-
-If we wanted to draw a heart, the first step would be to think about the basic shapes needed. That's a mental/planning activity. No code needed!
+If we wanted to draw a heart, the first step would be to think about the basic shapes needed and then start figure out the coordinates of where to draw them. That's a mental/planning activity. No code needed!
 
 ![Heart planning](images/heartDrawingGrid.png)
 
