@@ -2,47 +2,48 @@
 ---
 
 @import "{{ site.theme }}";
-/* LAYOUT STYLES */
+
 body {
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.1;
+  color: #000000;
 }
 
-header h1 {
+a {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
   width: 100%;
+  line-height:1.2;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #000000;
+}
+
+h1 {
   font-size: 1.5rem;
+  color: #F76902;
 }
 
-header h2 {
-  width: 100%;
-  font-size: 1.2rem;
+h2 {
+  font-size: 1.3rem;
 }
 
 section {
-  width:90%;
+  width:100%;
   float:center;
   padding-bottom:5px;
 }
 
 .inner {
-  width: 80%;
-}
-
-a.button {
-  font-size: 1.2rem;
-}
-a.button small {
-  font-size: 1rem;
-}
-
-aside a.button {
-  font-size: 1.2rem;
+  width: 100%;
 }
 
 ul, ol, dl {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
-
-/* GENERAL ELEMENT TYPE STYLES */
