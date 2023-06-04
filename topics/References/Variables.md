@@ -50,13 +50,13 @@ Anywhere you need a number value, you could use a number-type variable or an exp
 		text(key, mouseX, mouseY);
 	}
 ```
-![preview key following mouse](varKeyFollowsMouse.png)
+![preview key following mouse](images/varKeyFollowsMouse.png)
 
 &nbsp;
 
 ### Example 2: Math expressions with variables
 #### Stage 1: Draw a heart
-![heart drawing 1](heartCoordinates.png)
+![heart drawing 1](images/heartCoordinates.png)
 
 ```javascript
   // 2 scoops of ice cream
@@ -67,10 +67,10 @@ Anywhere you need a number value, you could use a number-type variable or an exp
   triangle(60, 105, 140, 105, 100, 160);
 
 ```
-![heart in p5](singleHeart.png)
+![heart in p5](images/singleHeart.png)
 
 #### Stage 2: Draw a heart relative to position (100, 100)
-![heart sketch 2](heartDrawingGrid.png)
+![heart sketch 2](images/heartDrawingGrid.png)
 
 ```javascript
   // 2 scoops of ice cream
@@ -92,7 +92,7 @@ Everywhere we used 100 for x and y coordinates, use mouseX and mouseY instead.
   // triangle(x1, y1, x2, y2, x3, y3);
   triangle(mouseX - 40, mouseY + 5, mouseX + 40, mouseY + 5, mouseX, mouseY + 60);
 ```
-![heart follows mouse in p5](singleHeartFollowsMouse.png)
+![heart follows mouse in p5](images/singleHeartFollowsMouse.png)
 
 &nbsp;
 
@@ -140,7 +140,7 @@ The action goes right to left across the **=** sign: the value `"turquoise"` rep
 	// Size a circle based on variable (this was pasted)
 	ellipse(width / 2, height / 2, shapeScale * 15, shapeScale * 15);
 ```
-![preview 3 Circles sketch](varIntro3circles.png)
+![preview 3 Circles sketch](images/varIntro3circles.png)
 
 ### Example 4: consistent shapes using variable
 If you change the value of the variable in the following program, you change the size of all three shapes drawn.
@@ -165,7 +165,7 @@ If you change the value of the variable in the following program, you change the
 			width - shapeSize, height - shapeSize);
 	}
 ```
-![preview Consistent size shapes sketch](varConsistentShapes.png)
+![preview Consistent size shapes sketch](images/varConsistentShapes.png)
 
 ### Practice 2:
 Let's edit the code in Example 4 to be interactive. 
@@ -174,15 +174,3 @@ We need to update the value of `shapeSize` based on the value of `mouseX`.
  - On our new empty line, type an **assignment statement** that sets the variable `shapeSize` equal to `mouseX`.
  
  When working properly, the size of the 3 shapes should grow and shrink together as you move your mouse across the canvas.
-
- &nbsp;
- 
-### Next topic: [Functions, Frames, and Animation](Animation.md)
-### Previous topic: [Math Expressions](Expressions.md)
-
-## References
-- JavaScript variables: <a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">https://www.w3schools.com/js/js_variables.asp</a>
-- p5.js **ellipse** command: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
-- p5.js **rect** command: <a href="https://p5js.org/reference/#/p5/rect" target="_blank">https://p5js.org/reference/#/p5/rect</a>
-- p5.js **triangle** command: <a href="https://p5js.org/reference/#/p5/triangle" target="_blank">https://p5js.org/reference/#/p5/triangle</a>
-- Interactivity in p5.js: <a href="https://p5js.org/learn/interactivity.html" target="_blank">https://p5js.org/learn/interactivity.html</a>

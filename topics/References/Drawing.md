@@ -93,9 +93,3 @@ text("My name is Erika!", 25, 100);
 
 ![My name is...](images/MyNameIs.PNG)
 
-## References
-- About setup: <a href="https://p5js.org/reference/#/p5/setup" target="_blank">https://p5js.org/reference/#/p5/setup</a>
-- About draw: <a href="https://p5js.org/reference/#/p5/draw" target="_blank">https://p5js.org/reference/#/p5/draw</a>
-- createCanvas: <a href="https://p5js.org/reference/#/p5/createCanvas" target="_blank">https://p5js.org/reference/#/p5/createCanvas</a>
-- background: <a href="https://p5js.org/reference/#/p5/background" target="_blank">https://p5js.org/reference/#/p5/background</a>
-- text: <a href="https://p5js.org/reference/#/p5/text" target="_blank">https://p5js.org/reference/#/p5/text</a>

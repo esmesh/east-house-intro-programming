@@ -39,7 +39,7 @@ Calculation options:
 ### Practice 1:
 We have two circles, can you draw two more circles that are positioned exactly 140 pixels below the first ones using math expressions for their y-coordinates?
 
-![4 Circles](mathExprCircles.png)
+![4 Circles](images/mathExprCircles.png)
 
 
 ### Example 2
@@ -51,7 +51,7 @@ rect(0, 0, 300, 300);
 Draw a square centered at the middle of the 400x400 canvas.
 If the canvas is 400 wide and 400 high, the middle of it is (200, 200). Use a math expression to calculate the proper top-left corner position of the square given that it is 300 wide.
 
-![Centered square](centerSquareGrid.png)
+![Centered square](images/centerSquareGrid.png)
 
 ```javascript
 // 300x300 square centered at (200, 200):
@@ -63,11 +63,4 @@ rect(200 - (300 / 2), 200 - (300 / 2), 300, 300);
 Can you draw another centered square - one that is 1/3 the size of the first - using math expressions?
 
 
-&nbsp;
-### Next topic: [Adding interactivity with Variables](Variables.md)
-
-## References
-- JavaScript arithmetic: <a href="https://www.w3schools.com/js/js_arithmetic.asp" target="_blank">https://www.w3schools.com/js/js_arithmetic.asp</a>
-- p5.js **ellipse** command: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
-- p5.js **rect** command: <a href="https://p5js.org/reference/#/p5/rect" target="_blank">https://p5js.org/reference/#/p5/rect</a>
 

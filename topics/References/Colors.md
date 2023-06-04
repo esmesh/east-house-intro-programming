@@ -1,11 +1,11 @@
-*Note that the examples in this section were made by first doing a **lot** of planning on paper. You can see the steps I went through to determine the shapes needed, drawing order, coordinates, etc. in: [ScenePlanning.pdf](ScenePlanning.pdf).*
+*Note that the examples in this section were made by first doing a **lot** of planning on paper. You can see the steps I went through to determine the shapes needed, drawing order, coordinates, etc. in: [ScenePlanning.pdf](images/ScenePlanning.pdf).*
 
 ## Shape drawing order
 In order to have our shapes display correctly, the **order** in which we draw them matters!
 
 For example, consider the scene below:
 
-![bw_mountains.png](bw_mountains.png)
+![bw_mountains.png](images/bw_mountains.png)
 
 We need to draw the sun *first* because it should always be at the "back" of the scene. Then the ground. Then the mountains.
 
@@ -68,7 +68,7 @@ function draw() {
 
 The results in the tree being drawn "on top" of the rest of the scene:
 
-![bw_scene.png](bw_scene.png)
+![bw_scene.png](images/bw_scene.png)
 
 The concept of "order" in our code will be important when we add colors as well. Each time we define a color to be used, that color is used for everything drawn (until the color changes again).
 
@@ -85,7 +85,7 @@ background("Aqua");
 
 Adding this to our scene results in:
 
-![scene_with_bg.png](scene_with_bg.png)
+![scene_with_bg.png](images/scene_with_bg.png)
 
 
 ## Filling shapes
@@ -99,7 +99,7 @@ In order to fill the various shapes in the scene with color, we use the command 
 
 we get:
 
-![orange_scene.png](orange_scene.png)
+![orange_scene.png](images/orange_scene.png)
 
 
 In order to have each shape be its own color, we need to keep changing the fill. The final code to produce a colored scene is:
@@ -142,7 +142,7 @@ function draw() {
 }
 ```
 
-![colored_scene.png](colored_scene.png)
+![colored_scene.png](images/colored_scene.png)
 
 
 ## Stroke (line) color
@@ -160,7 +160,7 @@ To make them go away, we can add `noStroke();` right after setting the backgroun
     
 ```
 
-![scene_wo_outlines.png](scene_wo_outlines.png)
+![scene_wo_outlines.png](images/scene_wo_outlines.png)
 
 To change the outline color and weight (i.e. to make the sun look more interesting), we can use the commands `stroke` to set the color and `strokeWeight` to set the width of the line (in pixels).
 
@@ -176,16 +176,8 @@ To change the outline color and weight (i.e. to make the sun look more interesti
     
 ```
 
-![final_scene.png](final_scene.png)
+![final_scene.png](images/final_scene.png)
 
-## References
-- Color names: <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a>
-- About colors in p5.js: <a href="https://p5js.org/learn/color.html" target="_blank">https://p5js.org/reference/#/p5/color</a>
-- background: <a href="https://p5js.org/reference/#/p5/background" target="_blank">https://p5js.org/reference/#/p5/background</a>
-- fill: <a href="https://p5js.org/reference/#/p5/fill" target="_blank">https://p5js.org/reference/#/p5/fill</a>
-- noStroke: <a href="https://p5js.org/reference/#/p5/noStroke" target="_blank">https://p5js.org/reference/#/p5/noStroke</a>
-- stroke: <a href="https://p5js.org/reference/#/p5/stroke" target="_blank">https://p5js.org/reference/#/p5/stroke</a>
-- strokeWeight: <a href="https://p5js.org/reference/#/p5/strokeWeight" target="_blank">https://p5js.org/reference/#/p5/strokeWeight</a>
 
 ## Another Example
 The code below adds colors to the shape example from last time. Run it and see what you get!
@@ -230,5 +222,5 @@ The code below adds colors to the shape example from last time. Run it and see w
     quad(250, 300, 325, 325, 350, 375, 225, 370);
  ```
 
-[Click here for the color example result](colors.png)
+[Click here for the color example result](images/colors.png)
 

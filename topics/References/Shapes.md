@@ -10,7 +10,7 @@ p5.js provides many pre-written functions for drawing common shapes. We can cont
 point(4, 5); 
 ```
 
-![Point](point.png)
+![Point](images/point.png)
 
 **Lines** are drawn between two coordinates given as four parameters to the `line` function: Start X, Start Y, End X, End Y
 ```javascript
@@ -44,7 +44,7 @@ function draw() {
 }
 ```
 
-[Answer](lines_answer.jpg)
+[Answer](images/lines_answer.jpg)
 
 ### Rectangles
 **Rectangles** are drawn with their top left corner at a given coordinate using a given width and height.
@@ -55,7 +55,7 @@ function draw() {
 rect(1, 2, 4, 3);
 ```
 
-![Rectangle](rect.png)
+![Rectangle](images/rect.png)
 
 ### Ellipses
 **Ellipses (ovals)** are drawn with their *center* at a given coordinate using a given width and height.
@@ -66,7 +66,7 @@ rect(1, 2, 4, 3);
 ellipse(3, 3, 4, 6);
 ```
 
-![Ellipse](ellipse.png)
+![Ellipse](images/ellipse.png)
 
 
 ### Triangles & Quads
@@ -79,7 +79,7 @@ ellipse(3, 3, 4, 6);
 // - 2, 7
 triangle(4, 2, 7, 8, 2, 7);
 ```
-![Triangle](triangle.png)
+![Triangle](images/triangle.png)
 
 
 ```javascript
@@ -90,7 +90,7 @@ triangle(4, 2, 7, 8, 2, 7);
 // - 1, 4
 quad(2, 1, 8, 2, 7, 7, 1, 4);
 ```
-![Quad](quad.png)
+![Quad](images/quad.png)
 
 ## Example
 
@@ -117,12 +117,5 @@ quad(2, 1, 8, 2, 7, 7, 1, 4);
     
 ```
 
-![Shapes](shapes.png)
+![Shapes](images/shapes.png)
 
-## References
-- point: <a href="https://p5js.org/reference/#/p5/point" target="_blank">https://p5js.org/reference/#/p5/point</a>
-- line: <a href="https://p5js.org/reference/#/p5/line" target="_blank">https://p5js.org/reference/#/p5/line</a>
-- rect: <a href="https://p5js.org/reference/#/p5/rect" target="_blank">https://p5js.org/reference/#/p5/rect</a>
-- ellipse: <a href="https://p5js.org/reference/#/p5/ellipse" target="_blank">https://p5js.org/reference/#/p5/ellipse</a>
-- triangle: <a href="https://p5js.org/reference/#/p5/triangle" target="_blank">https://p5js.org/reference/#/p5/triangle</a>
-- quad: <a href="https://p5js.org/reference/#/p5/quad" target="_blank">https://p5js.org/reference/#/p5/quad</a>
