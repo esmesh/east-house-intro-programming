@@ -86,9 +86,9 @@ Colors are added by calling `fill` with a color name before the statements for d
 ```
 
 ## Things to try!
-[ ] Change some colors
-[ ] Make the face, eyes, and/or nose bigger
-[ ] Add some freckles
+- [ ] Change some colors
+- [ ] Make the face, eyes, and/or nose bigger
+- [ ] Add some freckles
 [ ] Change the ORDER of some statements
     - What happens if the call to draw the face is last?!
 [ ] Change the sizes/placement of the sample shapes at the bottom
