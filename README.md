@@ -27,6 +27,6 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 
 
 ### Quick Links
-- **Workshop Website:** <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
-- **Online p5.js Editor:** <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
-- **Other References:** <a href="https://esmesh.github.io/east-house-intro-programming/topics/References.html" target="_blank">https://esmesh.github.io/east-house-intro-programming/topics/References.html</a>
+- Workshop Website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
+- Online p5.js Editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
+- Other References: <a href="https://esmesh.github.io/east-house-intro-programming/topics/References.html" target="_blank">https://esmesh.github.io/east-house-intro-programming/topics/References.html</a>
