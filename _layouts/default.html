@@ -13,11 +13,11 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div id="noprint">
+      <p style="text-align:right;"><em><a href="{{ "/" | absolute_url }}">Back to main page...</a></em></p>
+    </div>
     <div class="wrapper">
       <section>
-        <p style="text-align:right;"><em><a href="{{ "/" | absolute_url }}">Back to main page...</a></em></p>
-        <p></p>
-
       {{ content }}
 
       </section>
