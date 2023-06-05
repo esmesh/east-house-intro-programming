@@ -47,6 +47,11 @@ section {
   width: 100%;
 }
 
+.wrapper {
+  width:100%;
+  margin:0 auto;
+}
+
 @media print {
    .noprint {
       visibility: hidden;
