@@ -23,7 +23,7 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 5. [Letting the computer do the math](topics/Flower.md)
 6. [Adding interactions & movement!](topics/FlowerAnimations.md)
 
-**[Things to Try](topics/ThingsToTry.md)**
+**[Things to Try](topics/ThingsToTry.md)**: A collection of suggested adjustments to the demo code + an outline on designing your own project!
 
 ### Quick Links
 - Workshop Website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
