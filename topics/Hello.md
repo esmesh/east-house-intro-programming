@@ -106,9 +106,3 @@ text("My name is Erika!", 25, 100);
 ```
 
 ![My name is...](images/MyNameIs.PNG)
-
-## Things to try!
-- Change the text to have your name
-- Use a different background color *(See <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a> for the possible color names.)*
-- Add new text somewhere else on the canvas
-

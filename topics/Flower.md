@@ -29,10 +29,3 @@ let sunSize = canvasSize/3;
 let sunX = 0;
 let sunY = sunSize/4;
 ```
-
-## Things to try!
-- Change ***only*** the `canvasSize` variables.
-- Change the flower height or width
-- Try adding a bee 1 `flowerWidth` to the right of the top of the flower stem
-    - *This is abstract art, the "bee" can be a simple circle or oval. ;)*
-    - The top of the flower stem has variables for its X & Y coordinates: `stemTopX` and `stemTopY`
