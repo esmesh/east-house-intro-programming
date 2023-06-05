@@ -7,7 +7,7 @@ This workshop will provide an introduction to core software programming concepts
 We'll be writing *JavaScript* programs that utilize the *p5.js library* to support drawing shapes onto a digital canvas.
 
 Since our time is limited, the primary goal is to give everyone a chance to:
-- See what is possible wih p5.js
+- See what is possible with p5.js
 - Run some pre-made programs
 - Learn a few programming concepts so that you can customize the programs
 - Edit the demo code a bit to play with how things work
