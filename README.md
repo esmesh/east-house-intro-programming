@@ -16,12 +16,20 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 ### Workshop activities
 *We'll get as far as we can on Day 1 while leaving plenty of time for you to play around and brainstorm things you'd like to try. On Day 2, we'll wrap up some demos and then focus on helping you make your own programs!*
 
-**Demos**
+**Topics**
 1. [Getting Started](topics/GettingStarted.md)
 2. [Hello East House!](topics/Hello.md)
 4. [Shapes & Colors](topics/Smiley.md)
 5. [Letting the computer do the math](topics/Flower.md)
 6. [Adding interactions & movement!](topics/FlowerAnimations.md)
+
+**Demos**
+1. [Canvas size and drawing text](topics/demos/HelloEastHouse.md)
+2. [2D Shapes](topics/demos/2dShapes.md)
+3. [Smiley](topics/demos/Smiley.md)
+3. [Flower & Sun](topics/demos/FlowerSun.md)
+3. [Daisy](topics/demos/Daisy.md)
+3. [Bouncing Target](topics/demos/BouncingTarget.md)
 
 **[Things to Try](topics/ThingsToTry.md)**: A collection of suggested adjustments to the demo code + an outline on designing your own project!
 

@@ -18,7 +18,7 @@ For example, in the flower image below, *everything* is based on the size of the
 
 ![Flower image](images/flower.png)
 
-#### **Copy & run the full [flower demo code](flowerDemoCode.md)**
+#### **Copy & run the full [flower demo code](Demos/FlowerSun.md)**
 
 ```javascript
 let canvasSize = 300;

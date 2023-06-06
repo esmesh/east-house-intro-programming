@@ -14,7 +14,7 @@ p5.js has support for a lot of basic shapes that we can combine however/wherever
 ![Basic shapes](images/otherShapes.png)
 
 ## Putting it together
-#### **Copy ALL of the code from [the smiley demo](smileyDemoCode.md) and run it!**
+#### **Copy ALL of the code from [the smiley demo](Demos/Smiley.md) and run it!**
 
 ![Smiley face](images/SmileyFull.png)
 
