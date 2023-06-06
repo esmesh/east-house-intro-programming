@@ -1,4 +1,4 @@
-<iframe height="500" width="500" src="https://editor.p5js.org/esmvcs/full/zQ89pRGVp"></iframe>
+<iframe height="450" width="450" src="https://editor.p5js.org/esmvcs/full/zQ89pRGVp"></iframe>
 
 ```javascript
 // Translate, rotate, color, and ellipse mode demo
