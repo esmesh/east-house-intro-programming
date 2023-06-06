@@ -1,4 +1,4 @@
-<iframe height="200" width="200" src="https://editor.p5js.org/esmvcs/full/K7icPmBCf"></iframe>
+<iframe height="250" width="250" src="https://editor.p5js.org/esmvcs/full/K7icPmBCf"></iframe>
 
 ```javascript
 function setup() {
