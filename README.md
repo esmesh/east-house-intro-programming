@@ -24,12 +24,12 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 6. [Adding interactions & movement!](topics/FlowerAnimations.md)
 
 **Demos**
-1. [Canvas size and drawing text](topics/demos/HelloEastHouse.md)
-2. [2D Shapes](topics/demos/2dShapes.md)
-3. [Smiley](topics/demos/Smiley.md)
-3. [Flower & Sun](topics/demos/FlowerSun.md)
-3. [Daisy](topics/demos/Daisy.md)
-3. [Bouncing Target](topics/demos/BouncingTarget.md)
+1. [Canvas size and drawing text](topics/Demos/HelloEastHouse.md)
+2. [2D Shapes](topics/Demos/2dShapes.md)
+3. [Smiley](topics/Demos/Smiley.md)
+3. [Flower & Sun](topics/Demos/FlowerSun.md)
+3. [Daisy](topics/Demos/Daisy.md)
+3. [Bouncing Target](topics/Demos/BouncingTarget.md)
 
 **[Things to Try](topics/ThingsToTry.md)**: A collection of suggested adjustments to the demo code + an outline on designing your own project!
 
