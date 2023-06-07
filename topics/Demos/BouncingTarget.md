@@ -1,5 +1,8 @@
 <iframe height="350" width="350" src="https://editor.p5js.org/esmvcs/full/xqU7jjuHi"></iframe>
 
+Click the mouse inside the p5 canvas to make the target move faster.
+The speed can go up to 10 before it resets back to 1.
+
 ```javascript
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // VARIABLES
