@@ -33,8 +33,6 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 
 **[Things to Try](topics/ThingsToTry.md)**: A collection of suggested adjustments to the demo code + an outline on designing your own project!
 
-**Use <a href="https://docs.google.com/document/d/1ojTbNambBKUMW5LX0ynfedeVFcNr-eFu531J9zNBieo/edit?usp=sharing" target="_blank">THIS LINK</a> to save a link to your project for later & for us to print for you!**
-
 ### Quick Links
 - Workshop Website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
 - Online p5.js Editor: <a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
