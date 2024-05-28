@@ -73,7 +73,7 @@ Everything we draw using p5.js is placed onto a **canvas**. In order to draw som
 - **x**: The number of pixels right from the left side of the canvas.
 - **y**: The number of pixels down from the top side of the canvas.
 
-For example, in the 200x200 canvas defined above, the top left would be at x=0, y=0. The bottom right would be at x=200, y=200. We can represent this using a coordinate grid *(this is why your notebooks have graph paper)*.
+For example, in the 200x200 canvas defined above, the top left would be at x=0, y=0. The bottom right would be at x=200, y=200. We can represent this using a coordinate grid.
 
 ![Sample canvas](images/canvas200_200.PNG)
 
