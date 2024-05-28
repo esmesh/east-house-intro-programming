@@ -24,7 +24,7 @@ If you want to be able to **save** your work for later:
 2. If you have a Google email address, you can sign up via `Login with Google`
 3. If you want to create a new login:
     1. Decide on a username and password.
-    2. Enter an email address *(if you don't have a personal email address, we can help you create one)*
+    2. Enter an email address
     3. Click `Sign Up`
 
 ### Create a new sketch
