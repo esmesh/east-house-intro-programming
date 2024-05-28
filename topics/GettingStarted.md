@@ -8,7 +8,7 @@ In this workshop, your development environment will be:
 
 ## Accessing the workshop resources
 1. Log into a lab computer using the account info on the whiteboard.
-2. Open the Chrome web browser using the `East House 2023` shortcut on the desktop
+2. Open the Chrome web browser using the `East House` shortcut on the desktop
     - This opens the workshop website: <a href="https://esmesh.github.io/east-house-intro-programming/" target="_blank">https://esmesh.github.io/east-house-intro-programming/</a>
 
 ## Using the online p5.js editor
@@ -39,7 +39,7 @@ Press the play button to run the program. The default sketch will draw a single 
 
 ![Run Program](images\RunProgram.png)
 
-## Why do we still need notebooks?!
+## Why do we still need paper?!
 It helps to always have a plan of what we want to do before we ever touch a computer! 
 
 Professional software engineers use paper, whiteboards, etc. to brainstorm & collect ideas. This saves us time & rework later!
