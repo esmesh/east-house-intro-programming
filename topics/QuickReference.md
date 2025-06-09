@@ -16,6 +16,14 @@ point(4, 5);
 line(0, 0, 4, 5); 
 ```
 
+**Squares** are drawn with their top left corner at a given coordinate using a given width.
+
+```javascript
+// Square starting at 1, 2
+// with a width of 4
+square(1, 2, 4);
+```
+
 **Rectangles** are drawn with their top left corner at a given coordinate using a given width and height.
 
 ```javascript
