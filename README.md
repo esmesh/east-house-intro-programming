@@ -1,6 +1,8 @@
 # Interactive Graphics Programming with JavaScript
 ## East House Enrichment Program @ RIT, June 2025
 
+[Click HERE to share your program link with us!](https://docs.google.com/document/d/1v1Tlz-TKzF94NlfaqtvzhgUIrq3OTSbbtf66ZpixG2U/edit?usp=sharing)
+
 ### Overview
 This workshop will provide an introduction to core software programming concepts. Each student will work individually and in small groups to write programs that generate pictures of their own design. On day two, we’ll work together to add interactivity to the images by changing what the program does depending on the user’s mouse and/or keyboard actions. 
 
