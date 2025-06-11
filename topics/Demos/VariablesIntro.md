@@ -35,4 +35,5 @@ function draw() {
   // move square
   squareLocX = squareLocX + 1;
   squareLocY = squareLocY + 2;
-}```
+}
+```
