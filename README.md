@@ -27,6 +27,7 @@ Since our time is limited, the primary goal is to give everyone a chance to:
 1. [Hello East House](topics/Demos/HelloEastHouse.md): Canvas size & text
 2. [2D Shapes](topics/Demos/2dShapes.md): Examples of different shapes
 3. [Smiley](topics/Demos/Smiley.md): Layering shapes & filling with colors
+3. [Scaled & moving square](topics/Demos/VariablesIntro.md): Introduction to variables for doing calculations, movement, and color changes
 3. [Flower & Sun](topics/Demos/FlowerSun.md): Using variables & expressions while drawing
 3. [Daisy](topics/Demos/Daisy.md): Translation & rotation while drawing (+ a loop)
 3. [Bouncing Target](topics/Demos/BouncingTarget.md): Mouse location and button clicks
